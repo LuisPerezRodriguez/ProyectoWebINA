@@ -138,6 +138,11 @@ main {
 
 
 /*areas vocacionales nav*/
+ main{
+  margin-top: 4%;
+  margin: 10px;
+ }
+
 .areas-vocacionales__titulo {
   text-align: center;    
 }
@@ -182,12 +187,54 @@ main {
   color: white; 
 }
 
-/* Media Queries  */
+.articulo__imagen{
+ max-width: 300px;
+ height: auto;
+ margin-right: 10px; 
+
+}
+
+/* Media Queries */
 @media (max-width: 800px) {
   .lista__item {
     width: 100%;  
     margin-bottom: 2px;  
   }
 }
+
+/*secciones de cada area*/
+
+.articulo__subtitulo{
+  margin-top: 5%;
+}
+.areas-vocacionales__seccion {
+  margin: 5%;
+}
+
+.articulo__contenedor {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.articulo__imagen {
+  max-width: 300px; 
+  margin-right: 10%; 
+}
+
+.articulo__lista {
+  list-style: none;
+  text-decoration: none; 
+  padding: 0; 
+  margin: 0;
+}
+
+.articulo__lista li {
+  margin-bottom: 10px; 
+}
+
+
+
+
 
 
