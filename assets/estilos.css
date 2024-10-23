@@ -223,18 +223,26 @@ main {
 }
 
 .articulo__lista {
-  list-style: none;
-  text-decoration: none; 
+  text-decoration: none;
   padding: 0; 
   margin: 0;
 }
 
 .articulo__lista li {
   margin-bottom: 10px; 
+  color: black;
 }
 
+.articulo__lista a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
 
-
+.articulo__lista a:hover {
+  color: blue;
+}
 
 
 
