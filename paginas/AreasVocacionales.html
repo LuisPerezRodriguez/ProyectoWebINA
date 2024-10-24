@@ -1,257 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/estilos.css" />
     <title>Proyecto de vida</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="main-nav">
-      <div class="nav__inicio">
-        <a
-          href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
-          class="main-nav__inicio-itm"
-          ><img src="/SVGs/home-logo.svg" alt="Home logo"
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <div class="nav__inicio">
+          <a
+            href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
+            class="main-nav__inicio-itm"
+            ><img src="/SVGs/home-logo.svg" alt="Home logo"
+          /></a>
+        </div>
+        <div class="main-nav__sociales">
+          <a
+            href="https://www.facebook.com/institutonacionaldeaprendizaje"
+            class="main-nav__sociales-itm main-nav__sociales-itm--fb"
+            ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
+          /></a>
+          <a
+            href="https://www.youtube.com/user/inatvonline"
+            class="main-nav__sociales-itm main-nav__sociales-itm--yt"
+            ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
+          /></a>
+          <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
+            ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
+          /></a>
+        </div>
+      </nav>
+      <nav class="sub-nav">
+        <a href="#" class="sub-nav__a"
+          ><img
+            src="/Imagenes/Horizontal_blanco_21.png"
+            alt="INA logo horizontal blanco"
+            class="sub-nav__a-logo"
         /></a>
-      </div>
-      <div class="main-nav__sociales">
-        <a
-          href="https://www.facebook.com/institutonacionaldeaprendizaje"
-          class="main-nav__sociales-itm main-nav__sociales-itm--fb"
-          ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
-        /></a>
-        <a
-          href="https://www.youtube.com/user/inatvonline"
-          class="main-nav__sociales-itm main-nav__sociales-itm--yt"
-          ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
-        /></a>
-        <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
-          ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
-        /></a>
-      </div>
-    </nav>
-    <nav class="sub-nav">
-      <a href="#" class="sub-nav__a"
-        ><img
-          src="/Imagenes/Horizontal_blanco_21.png"
-          alt="INA logo horizontal blanco"
-          class="sub-nav__a-logo"
-      /></a>
-      <button class="sub-nav__btn" id="sub-nav__toggle-btn">
-        <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
-      </button>
-      <ul class="sub-nav__itms">
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="mobile-nav" id="mobile-nav">
-      <ul class="mobile-nav__itms">
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <button class="sub-nav__btn" id="sub-nav__toggle-btn">
+          <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
+        </button>
+        <ul class="sub-nav__itms">
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav__itms">
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <main  class="areas-vocacionales">
+    <main class="areas-vocacionales">
+      <h1 class="areas-vocacionales__titulo">Áreas Vocacionales</h1>
 
-        <h1 class="areas-vocacionales__titulo">Áreas Vocacionales</h1>
-    
-        <!-- Menú de áreas vocacionales -->
-        <nav class="areas-vocacionales__menu">
-            <ul class="menu__lista">
-                <li class="lista__item"><a href="#Agropecuario" class="lista__link">Agropecuario</a></li>
-                <li class="lista__item"><a href="#ComercioServicio" class="lista__link">Comercio y Servicios</a></li>
-                <li class="lista__item"><a href="#Electrico" class="lista__link">Eléctrico</a></li>
-                <li class="lista__item"><a href="#IndustriaAlimentaria" class="lista__link">Industria Alimentaria</a></li>
-                <li class="lista__item"><a href="#IndustriaGrafica" class="lista__link">Industria Gráfica</a></li>
-                <li class="lista__item"><a href="#MecanicaVehiculos" class="lista__link">Mecánica de Vehículos</a></li>
-                <li class="lista__item"><a href="#MetalMecanica" class="lista__link">Metal Mecánica</a></li>
-                <li class="lista__item"><a href="#Turismo" class="lista__link">Turismo</a></li>
+      <!-- Menú de áreas vocacionales -->
+      <nav class="areas-vocacionales__menu">
+        <ul class="menu__lista">
+          <li class="lista__item">
+            <a href="#Agropecuario" class="lista__link">Agropecuario</a>
+          </li>
+          <li class="lista__item">
+            <a href="#ComercioServicio" class="lista__link"
+              >Comercio y Servicios</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#Electrico" class="lista__link">Eléctrico</a>
+          </li>
+          <li class="lista__item">
+            <a href="#IndustriaAlimentaria" class="lista__link"
+              >Industria Alimentaria</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#IndustriaGrafica" class="lista__link"
+              >Industria Gráfica</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#MecanicaVehiculos" class="lista__link"
+              >Mecánica de Vehículos</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#MetalMecanica" class="lista__link">Metal Mecánica</a>
+          </li>
+          <li class="lista__item">
+            <a href="#Turismo" class="lista__link">Turismo</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Agropecuario-->
+      <section id="Agropecuario" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Agropecuario</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del área de Agropecuario"
+            />
+            <ul class="articulo__lista">
+              <li><a href="#">Técnico 2 Producción Pecuaria</a></li>
             </ul>
-        </nav>
-    
-        <!--Agropecuario-->
-        <section id="Agropecuario"class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Agropecuario</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del área de Agropecuario">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 2 Producción Pecuaria</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
-    
-        <!--Comercio y servicios-->
-        <section id="ComercioServicio" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Comercio y Servicios</h2>
-              <div class="articulo__contenedor">
-                <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del área de Comercio y Servicios">
-                <ul class="articulo__lista">
-                    <li><a href="#">Técnico Asistente Administrativo</a></li>
-                    <li><a href="#">Técnico 1 Asistencia en Contabilidad</a></li>
-                    <li><a href="#">Técnico Asistente de Mercadeo</a></li>
-                    <li><a href="#">Técnico Controlador(a) de la Calidad del Software</a></li>
-                    <li><a href="#">Técnico 3 Desarrollo de Aplicaciones de Software</a></li>
-                    <li><a href="#">Técnico 2 Desarrollo de páginas Web</a></li>
-                    <li><a href="#">Técnico Gestor en Salud Ocupacional y Ambiente</a></li>
-                    <li><a href="#">Inglés básico</a></li>
-                </ul>
-              </div>
-            </article>
-        </section>
+          </div>
+        </article>
+      </section>
 
-        <!--Electrico-->
-        <section id="Electrico" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Electrico</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del área electrica">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 2 Mantenimiento Industrial Dual</a></li>
-                      <li><a href="#">Técnico Especializado en Telemática</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!--Comercio y servicios-->
+      <section id="ComercioServicio" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Comercio y Servicios</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del área de Comercio y Servicios"
+            />
+            <ul class="articulo__lista">
+              <li><a href="#">Técnico Asistente Administrativo</a></li>
+              <li><a href="#">Técnico 1 Asistencia en Contabilidad</a></li>
+              <li><a href="#">Técnico Asistente de Mercadeo</a></li>
+              <li>
+                <a href="#"
+                  >Técnico Controlador(a) de la Calidad del Software</a
+                >
+              </li>
+              <li>
+                <a href="#">Técnico 3 Desarrollo de Aplicaciones de Software</a>
+              </li>
+              <li><a href="#">Técnico 2 Desarrollo de páginas Web</a></li>
+              <li>
+                <a href="#">Técnico Gestor en Salud Ocupacional y Ambiente</a>
+              </li>
+              <li><a href="#">Inglés básico</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-         <!--Industria alimentaria-->
-        <section id="IndustriaAlimentaria" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Industria Alimentaria</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del area Industria Alimentaria">
-                  <ul>
-                      <!--En el documento ni no viene nada, preguntar si se agrega?-->
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!--Electrico-->
+      <section id="Electrico" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Electrico</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del área electrica"
+            />
+            <ul class="articulo__lista">
+              <li><a href="#">Técnico 2 Mantenimiento Industrial Dual</a></li>
+              <li><a href="#">Técnico Especializado en Telemática</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-        <!--Industria grafica-->
-        <section id="IndustriaGrafica" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Industria Gráfica</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del area Industria Gráfica">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 1 Administración de contenido visual-digital</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!--Industria alimentaria-->
+      <section id="IndustriaAlimentaria" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Industria Alimentaria</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del area Industria Alimentaria"
+            />
+            <ul>
+              <!--En el documento ni no viene nada, preguntar si se agrega?-->
+            </ul>
+          </div>
+        </article>
+      </section>
 
-        <!--Mecanica de vehiculos-->
-        <section id="MecanicaVehiculos" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Mecanica Vehiculos</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del area de Mecanica de vehiculos">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 2 Reparación de los Sistemas de Motocicletas y Cuadraciclos</a></li>
-                      <li><a href="#">Técnico 3 Reparación de los Sistemas del Vehículo Liviano</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!--Industria grafica-->
+      <section id="IndustriaGrafica" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Industria Gráfica</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del area Industria Gráfica"
+            />
+            <ul class="articulo__lista">
+              <li>
+                <a href="#"
+                  >Técnico 1 Administración de contenido visual-digital</a
+                >
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-        <!---metal mecanica-->
-        <section id="MetalMecanica" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Metal Mecanica</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del area de metal mecanica--">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 3 en Mecánica de Precisión</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!--Mecanica de vehiculos-->
+      <section id="MecanicaVehiculos" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Mecanica Vehiculos</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del area de Mecanica de vehiculos"
+            />
+            <ul class="articulo__lista">
+              <li>
+                <a href="#"
+                  >Técnico 2 Reparación de los Sistemas de Motocicletas y
+                  Cuadraciclos</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >Técnico 3 Reparación de los Sistemas del Vehículo Liviano</a
+                >
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-        <!---Turismo-->
-        <section id="Turismo" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Turismo</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del area de Turismo">
-                  <ul class="articulo__lista">
-                      <li><a href="#">Técnico 1 en Operaciones de Asistencia en la Cocina</a></li>
-                      <li><a href="#">Técnico 1 Servicios de Operaciones de Alimentos y Bebida</a></li>
-                      <li><a href="#">Técnico en Guía de Turistas Local</a></li> 
-                  </ul>
-                </div>
-            </article>
-        </section>
+      <!---metal mecanica-->
+      <section id="MetalMecanica" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Metal Mecanica</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del area de metal mecanica--"
+            />
+            <ul class="articulo__lista">
+              <li><a href="#">Técnico 3 en Mecánica de Precisión</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-</main>
+      <!---Turismo-->
+      <section id="Turismo" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Turismo</h2>
+          <div class="articulo__contenedor">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del area de Turismo"
+            />
+            <ul class="articulo__lista">
+              <li>
+                <a href="#"
+                  >Técnico 1 en Operaciones de Asistencia en la Cocina</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >Técnico 1 Servicios de Operaciones de Alimentos y Bebida</a
+                >
+              </li>
+              <li><a href="#">Técnico en Guía de Turistas Local</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
     <!--Footer-->
 
     <footer class="footer">
       <div class="footer-container">
-          <img src="/Imagenes/Horizontal_blanco_21.png" class="footer__logo" alt="INA logo horizontal blanco">
-          
-          <div class="contacto">
-              <h3>Contáctanos</h3>
-              <ul>
-                  <li><a href="http://www.inavirtual.ed.cr" target="_blank">Sitio web</a></li>
-                  <li><a href="tel:2210-6000">Llamar</a></li>
-                  <li><a href="mailto:soportecentrovirtual@ina.cr">Correo</a></li>
-              </ul>
-          </div>
-          
-          <div class="redes-sociales">
-              <h3>Síguenos</h3>
-              <ul>
-                  <li>
-                      <img src="/SVGs/facebook-logo.svg" alt="Facebook logo"/>
-                      <a href="https://www.facebook.com/institutonacionaldeaprendizaje" target="_blank"> Facebook </a>
-                  </li>
-                  <li>
-                      <img src="/SVGs/twitter-logo.svg" alt="Twitter logo"/>
-                      <a href="https://x.com/inadecostarica" target="_blank">Twitter</a>
-                  </li>
-                  <li>
-                      <img src="/SVGs/youtube-logo.svg" alt="YouTube logo" />
-                      <a href="https://www.youtube.com/user/inatvonline" target="_blank">YouTube</a>
-                  </li>
-              </ul>
-          </div>
-  
-          <div class="info-legal">
-              <h3>Información Legal</h3>
-              <ul>
-                  <li><a href="/politica-de-privacidad.html">Política de Privacidad</a></li>
-                  <li><a href="/terminos-y-condiciones.html">Términos y Condiciones</a></li>
-              </ul>
-          </div>
-  
-          <div class="horario-atencion">
-              <h3>Horario de Atención</h3>
-              <p><strong>Presencial:</strong> Lunes a viernes, 7:00 a.m. a 3:00 p.m.</p>
-              <p><strong>Telefónica:</strong> Lunes a domingo, 7:00 a.m. a 10:00 p.m.</p>
-          </div>
-      </div>
-  </footer>
-  
+        <img
+          src="/Imagenes/Horizontal_blanco_21.png"
+          class="footer__logo"
+          alt="INA logo horizontal blanco"
+        />
 
-</body>
+        <div class="contacto footer-col">
+          <h3>Contáctanos</h3>
+          <ul>
+            <li>
+              <a href="http://www.inavirtual.ed.cr" target="_blank"
+                >Sitio web</a
+              >
+            </li>
+            <li><a href="tel:2210-6000">Llamar</a></li>
+            <li><a href="mailto:soportecentrovirtual@ina.cr">Correo</a></li>
+          </ul>
+        </div>
+
+        <div class="redes-sociales footer-col">
+          <h3>Síguenos</h3>
+          <ul>
+            <li>
+              <img src="/SVGs/facebook-logo.svg" alt="Facebook logo" />
+              <a
+                href="https://www.facebook.com/institutonacionaldeaprendizaje"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <img src="/SVGs/twitter-logo.svg" alt="Twitter logo" />
+              <a href="https://x.com/inadecostarica" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <img src="/SVGs/youtube-logo.svg" alt="YouTube logo" />
+              <a href="https://www.youtube.com/user/inatvonline" target="_blank"
+                >YouTube</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-legal footer-col">
+          <h3>Información Legal</h3>
+          <ul>
+            <li>
+              <a href="/politica-de-privacidad.html">Política de Privacidad</a>
+            </li>
+            <li>
+              <a href="/terminos-y-condiciones.html">Términos y Condiciones</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="horario-atencion footer-col">
+          <h3>Horario de Atención</h3>
+          <p>
+            <strong>Presencial:</strong> Lunes a viernes, 7:00 a.m. a 3:00 p.m.
+          </p>
+          <p>
+            <strong>Telefónica:</strong> Lunes a domingo, 7:00 a.m. a 10:00 p.m.
+          </p>
+        </div>
+      </div>
+      <div class="copy">&COPY; 2024 INA</div>
+    </footer>
+  </body>
 </html>
