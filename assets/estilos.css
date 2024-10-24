@@ -143,7 +143,7 @@ main {
   margin: 10px;
  }
 
-.areas-vocacionales__titulo {
+.titulo {
   text-align: center;    
 }
 
@@ -203,7 +203,6 @@ main {
 }
 
 /*secciones de cada area*/
-
 .articulo__subtitulo{
   margin-top: 5%;
 }
@@ -303,7 +302,6 @@ main {
 .footer ul li a:hover {
   text-decoration: underline; 
 }
-
 
 .horario-atencion p {
   margin: 5px 0; 
