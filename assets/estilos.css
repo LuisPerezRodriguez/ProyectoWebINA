@@ -126,7 +126,7 @@ main {
 }
 
 .areas-vocacionales__titulo {
-  text-align: center;
+  text-align: center;    
 }
 
 .areas-vocacionales__menu {
@@ -177,7 +177,7 @@ main {
 
 /*secciones de cada area*/
 
-.articulo__subtitulo {
+.articulo__subtitulo{
   margin-top: 5%;
 }
 .areas-vocacionales__seccion {
