@@ -1,279 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/estilos.css" />
     <title>Proyecto de vida</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="main-nav">
-      <div class="nav__inicio">
-        <a
-          href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
-          class="main-nav__inicio-itm"
-          ><img src="/SVGs/home-logo.svg" alt="Home logo"
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <div class="nav__inicio">
+          <a
+            href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
+            class="main-nav__inicio-itm"
+            ><img src="/SVGs/home-logo.svg" alt="Home logo"
+          /></a>
+        </div>
+        <div class="main-nav__sociales">
+          <a
+            href="https://www.facebook.com/institutonacionaldeaprendizaje"
+            class="main-nav__sociales-itm main-nav__sociales-itm--fb"
+            ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
+          /></a>
+          <a
+            href="https://www.youtube.com/user/inatvonline"
+            class="main-nav__sociales-itm main-nav__sociales-itm--yt"
+            ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
+          /></a>
+          <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
+            ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
+          /></a>
+        </div>
+      </nav>
+      <nav class="sub-nav">
+        <a href="#" class="sub-nav__a"
+          ><img
+            src="/Imagenes/Horizontal_blanco_21.png"
+            alt="INA logo horizontal blanco"
+            class="sub-nav__a-logo"
         /></a>
-      </div>
-      <div class="main-nav__sociales">
-        <a
-          href="https://www.facebook.com/institutonacionaldeaprendizaje"
-          class="main-nav__sociales-itm main-nav__sociales-itm--fb"
-          ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
-        /></a>
-        <a
-          href="https://www.youtube.com/user/inatvonline"
-          class="main-nav__sociales-itm main-nav__sociales-itm--yt"
-          ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
-        /></a>
-        <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
-          ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
-        /></a>
-      </div>
-    </nav>
-    <nav class="sub-nav">
-      <a href="#" class="sub-nav__a"
-        ><img
-          src="/Imagenes/Horizontal_blanco_21.png"
-          alt="INA logo horizontal blanco"
-          class="sub-nav__a-logo"
-      /></a>
-      <button class="sub-nav__btn" id="sub-nav__toggle-btn">
-        <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
-      </button>
-      <ul class="sub-nav__itms">
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="mobile-nav" id="mobile-nav">
-      <ul class="mobile-nav__itms">
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <button class="sub-nav__btn" id="sub-nav__toggle-btn">
+          <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
+        </button>
+        <ul class="sub-nav__itms">
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav__itms">
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="tecnico">
+    <main class="tecnico main">
+      <h1 class="titulo">Electrico</h1>
+      <h2 class="sub-titulo">Técnico 2 Mantenimiento Industrial Dual</h2>
 
-        <h1 class="titulo">Electrico</h1>
-        <h2 class="sub-titulo">Técnico 2 Mantenimiento Industrial Dual</h2>
+      <!--Descripcion-->
+      <section id="descripcion">
+        <article class="articulo__descripcion">
+          <h3 class="descripcion__titulo">Descripción del programa</h3>
+          <p>
+            Ejecutar procesos de mantenimiento predictivo, preventivo,
+            correctivo, registro de variables de medición y técnicos, mostrando
+            una actitud positiva para el aprendizaje, asimismo, coordinando con
+            los integrantes del equipo para la solución de problemas.
+          </p>
+        </article>
+      </section>
 
-        <!--Descripcion-->
-        <section id="descripcion">
+      <!-- Requisitos de ingreso -->
+      <section id="Requisitos">
+        <article class="articulo__requisitos">
+          <h3 class="requisitos__titulo">Requisitos de Ingreso</h3>
+          <ul>
+            <li>
+              Edad: Mayor de 18 años cuando esté realizando su proceso de
+              formación en la empresa.
+            </li>
+            <li>Nivel académico: Certificado sexto grado.</li>
+            <li>Proceso de admisión: (X) Sí ( ) No</li>
+            <li>Inglés básico.</li>
+            <li>Aplicación de herramientas digitales de productividad.</li>
+            <li>Planos eléctricos de edificaciones.</li>
+          </ul>
+        </article>
+      </section>
 
-            <article class="articulo__descripcion">
-                <h3 class="descripcion__titulo">Descripción del programa</h3>
-                <p>
-                    Ejecutar procesos de mantenimiento predictivo, preventivo, correctivo, registro de variables 
-                    de medición y técnicos, mostrando una actitud positiva para el aprendizaje, asimismo, 
-                    coordinando con los integrantes del equipo para la solución de problemas. 
-                </p>
-            </article>
+      <!--habilidades-->
+      <section id="habilidades">
+        <article class="articulo__habilidades">
+          <h3 class="habilidades__titulo">Habilidades de funcionalidad</h3>
 
-        </section>
-
-        <!-- Requisitos de ingreso -->
-        <section id="Requisitos">
-            <article class="articulo__requisitos">
-            <h3 class="requisitos__titulo">Requisitos de Ingreso</h3>
-            <ul>
-                <li>Edad: Mayor de 18 años cuando esté realizando su proceso de formación en la empresa. </li>
-                <li>Nivel académico: Certificado sexto grado. </li>
-                <li>Proceso de admisión: (X) Sí  ( ) No </li>
-                <li>Inglés básico.</li>
-                <li>Aplicación de herramientas digitales de productividad.</li>
-                <li>Planos eléctricos de edificaciones.</li>
+          <!--Habilidades fisicas-->
+          <div class="habilidades__detalles">
+            <h3 class="habilidad__titulo">Habilidades físicas</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Motora fina: Agarres. Exactitud / precisión / pulso. Agilidad /
+                destreza manual y destreza digital. Armonía
+              </li>
+              <li>
+                Motora gruesa: Desplazamiento. Transportar pesos. Alcanzar.
+                Halar. Empujar. Levantar. Posición de pie / de cuclillas /
+                sentado / de rodillas. Equilibrio estático.
+              </li>
             </ul>
-            </article>
-        </section>
 
-        <!--habilidades-->
-        <section id="habilidades">
-            <article class="articulo__habilidades">
-                <h3 class="habilidades__titulo">Habilidades de funcionalidad</h3>
+            <!--Habilidades Cognitivas-->
+            <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Atención (mantenimiento, cambio, división y compartir de la
+                atención). Concentración. Comprensión. Memoria a corto y largo
+                plazo. Observación. Iniciativa. Comprensión espacial.
+              </li>
+            </ul>
 
-                <!--Habilidades fisicas-->
-                <div class="habilidades__detalles">
-                    <h3 class="habilidad__titulo">Habilidades físicas</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                            Motora fina: Agarres. Exactitud / precisión / pulso. Agilidad / destreza 
-                            manual y destreza digital. Armonía
-                        </li>
-                        <li>
-                            Motora gruesa: Desplazamiento. Transportar pesos. Alcanzar. Halar. 
-                            Empujar. Levantar. Posición de pie / de cuclillas / sentado / de rodillas. 
-                            Equilibrio estático. 
-                        </li>
-                    </ul>
+            <!--Habilidades sensoriales-->
+            <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Agudeza visual (monocular y binocular a corta y larga distancia)
+              </li>
+              <li>Percepción de formas.</li>
+              <ul>
+                <li>
+                  Visuales: Agudeza visual (monocular o binocular a corta y
+                  larga distancia). Percepción de formas. Percepción de tamaño.
+                </li>
+                <li>
+                  Vestibular: Función vestibular (posición, equilibrio y
+                  movimiento).
+                </li>
+                <li>
+                  Táctil:Funciones sensoriales relacionadas con la temperatura y
+                  otros estímulos: (sensibilidad a la temperatura, a la
+                  vibración, presión y estímulos nocivos).
+                </li>
+                <li>Auditivos: Detección de sonidos.</li>
+                <li>
+                  olfativa: Funciones sensoriales relacionadas con percibir
+                  olores y mas.
+                </li>
+              </ul>
+            </ul>
 
-                    <!--Habilidades Cognitivas-->
-                    <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                            Atención (mantenimiento, cambio, división y compartir de la atención). 
-                            Concentración. Comprensión. Memoria a corto y largo plazo. 
-                            Observación. Iniciativa. Comprensión espacial.
-                        </li>
-                    </ul>
+            <!--Otras habilidades-->
+            <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Seguimiento de instrucciones. Orden y limpieza. Responsabilidad.
+                Respeto. Puntualidad. Optimización del tiempo.
+              </li>
+              <li>
+                Matemática: Operaciones fundamentales con números naturales,
+                enteros, decimales y racionales (suma, resta, multiplicación y
+                división). Operaciones con fracciones.
+              </li>
+              <li>Verbal: Saber leer y escribir.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-                    <!--Habilidades sensoriales-->
-                    <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
-                    <ul class="habilidad__lista">
-                        <li>Agudeza visual (monocular y binocular a corta y larga distancia)</li>
-                        <li>Percepción de formas.</li>
-                        <ul>
-                            <li>
-                                Visuales: Agudeza visual (monocular o binocular a corta y larga 
-                                distancia). Percepción de formas. Percepción de tamaño. 
-                            </li> 
-                            <li>
-                                Vestibular: Función vestibular (posición, equilibrio y movimiento).
-                            </li>
-                            <li> 
-                                Táctil:Funciones sensoriales relacionadas con la temperatura y otros 
-                                estímulos: (sensibilidad a la temperatura, a la vibración, presión y 
-                                estímulos nocivos). 
-                            </li>
-                            <li>
-                                Auditivos: Detección de sonidos.
-                            </li> 
-                            <li>
-                                olfativa: Funciones sensoriales relacionadas con percibir olores y mas.
-                            </li>
-
-                        </ul>
-                    </ul>
-
-                    <!--Otras habilidades-->
-                    <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                            Seguimiento de instrucciones. Orden y limpieza. Responsabilidad. 
-                            Respeto. Puntualidad. Optimización del tiempo.  
-                        </li>
-                        <li>
-                            Matemática: Operaciones fundamentales con números naturales, 
-                            enteros, decimales y racionales (suma, resta, multiplicación y división). 
-                            Operaciones con fracciones. 
-                        </li>
-                        <li>
-                            Verbal: Saber leer y escribir. 
-                        </li> 
-                    </ul> 
-                </div>
-            </article>
-        </section>
-
-   <!--Tareas tipicas que se realizan-->
-<section id="tareas_tipicas">
-    <article class="articulo__tareas">
-        <h3 class="tareas__titulo"> Tareas típicas que se realizan en el programa </h3>
-        <ul class="tareas__lista">
+      <!--Tareas tipicas que se realizan-->
+      <section id="tareas_tipicas">
+        <article class="articulo__tareas">
+          <h3 class="tareas__titulo">
+            Tareas típicas que se realizan en el programa
+          </h3>
+          <ul class="tareas__lista">
             <li>Lectura, dibujo y reconocimiento de un plano eléctrico.</li>
             <li>Conocer e identificar tarjetas electrónicas.</li>
-            <li>Conocer fórmulas para identificar aspectos de la electrónica y electricidad.</li>
-            <li>Distinguir partes de compresores, su funcionamiento y reparación de estos.</li>
-            <li>Instalación y reparación de bandas, tornillos sin fin y motores eléctricos.</li>
-            <li>Mantenimiento, reparación y instalación de equipo de bombeo.</li>
-            <li>Realizan exposiciones, pruebas y proyectos para comprobar los conocimientos adquiridos en clases y talleres.</li>
-        </ul>
-        <!--Nota adicional-->
-        <div class="nota">
+            <li>
+              Conocer fórmulas para identificar aspectos de la electrónica y
+              electricidad.
+            </li>
+            <li>
+              Distinguir partes de compresores, su funcionamiento y reparación
+              de estos.
+            </li>
+            <li>
+              Instalación y reparación de bandas, tornillos sin fin y motores
+              eléctricos.
+            </li>
+            <li>
+              Mantenimiento, reparación y instalación de equipo de bombeo.
+            </li>
+            <li>
+              Realizan exposiciones, pruebas y proyectos para comprobar los
+              conocimientos adquiridos en clases y talleres.
+            </li>
+          </ul>
+          <!--Nota adicional-->
+          <div class="nota">
             <p>
-                Esta carrera o programa educativo tiene una modalidad de enseñanza Dual;
-                la cual consiste, en que las personas estudiantes realicen sus procesos de 
-                enseña y aprendizaje de alternancia; es decir, que llevan sus cursos en el INA y 
-                alternamente aplican la práctica de lo visto en las empresas, en ciertos cursos
-                según el plan de estudio.
+              Esta carrera o programa educativo tiene una modalidad de enseñanza
+              Dual; la cual consiste, en que las personas estudiantes realicen
+              sus procesos de enseña y aprendizaje de alternancia; es decir, que
+              llevan sus cursos en el INA y alternamente aplican la práctica de
+              lo visto en las empresas, en ciertos cursos según el plan de
+              estudio.
             </p>
-        </div>
-    </article>
-</section>
+          </div>
+        </article>
+      </section>
 
-<!--Plan de estudio-->
-<section id="plan_estudio">
-    <article class="articulo__plan">
-        <h3 class="plan__titulo">Plan de estudio</h3>
-        <ul class="plan__lista">
+      <!--Plan de estudio-->
+      <section id="plan_estudio">
+        <article class="articulo__plan">
+          <h3 class="plan__titulo">Plan de estudio</h3>
+          <ul class="plan__lista">
             <li>Circuitos eléctricos RLC en CD.</li>
             <li>Dibujo de mecánica normalizado.</li>
             <li>Procedimientos básicos de fabricación.</li>
             <li>Soldadura por arco metálico protegido (SMAW).</li>
             <li>Dibujo mecánico CAD 2D.</li>
             <li>Instalaciones eléctricas.</li>
-            <li>Máquinas eléctricas. (Módulo con alternancia. Horas en el INA: 70 hrs, en la empresa: 80 hrs)</li>
-            <li>Control de motores. (Módulo con alternancia. Horas en el INA: 84 hrs en la empresa: 108 hrs)</li>
-            <li>Transmisiones mecánicas. (Módulo con alternancia. Horas en el INA: 67 hrs en la empresa: 83 hrs)</li>
-            <li>Equipo de bombeo. (Módulo con alternancia. Horas en el INA: 42 hrs en la empresa: 54 hrs)</li>
-            <li>Aire comprimido. (Módulo con alternancia. Horas en el INA: 42 hrs en la empresa: 54 hrs)</li>
-        </ul>
-    </article>
-</section>
-
-<!--Perfil de salida-->
-<section id="perfil_salida">
-    <article class="articulo__perfil">
-        <h3 class="perfil__titulo">Perfil de salida</h3>
-        <p class="perfil__descripcion">
-            El Técnico en Mantenimiento Industrial INA tiene la capacidad de trabajar 
-            en Equipo, tomar el liderazgo en proyectos, comunicarse efectivamente, leer planos 
-            eléctricos, hacer instalaciones eléctricas, realizar instalación y mantenimiento preventivo de 
-            motores eléctricos, equipos de neumática, equipo de bombeo, mantenimiento de equipos 
-            electrónicos, soldar con arco revestido, programar motores, armar y desarmar motores para 
-            corrección y cambio de piezas, entre otras funciones relacionadas al área y que demande la 
-            empresa.
-        </p>
-    </article>
-</section>
-
-<!--Mercado laboral-->
-<section id="mercado_laboral">
-    <article class="articulo__mercado">
-        <h3 class="mercado__titulo">Mercado laboral</h3>
-        <ul class="mercado__lista">
             <li>
-                Empresas de: Alimentos, Industria del Plástico, Industria Textil, Talleres 
-                Especializados, Industria Médica, Industria del Papel, Bananeras, Instalación y 
-                Mantenimientos de bombas de Agua, Ventas de equipo Especializado, Mantenimiento y 
-                Seguimiento de Equipo por parte de Empresa Especializada, entre otras muchas empresas 
-                que trabajen motores eléctricos, neumática, bandas y circuitos eléctricos. 
+              Máquinas eléctricas. (Módulo con alternancia. Horas en el INA: 70
+              hrs, en la empresa: 80 hrs)
             </li>
-        </ul> 
-    </article>
-</section>
+            <li>
+              Control de motores. (Módulo con alternancia. Horas en el INA: 84
+              hrs en la empresa: 108 hrs)
+            </li>
+            <li>
+              Transmisiones mecánicas. (Módulo con alternancia. Horas en el INA:
+              67 hrs en la empresa: 83 hrs)
+            </li>
+            <li>
+              Equipo de bombeo. (Módulo con alternancia. Horas en el INA: 42 hrs
+              en la empresa: 54 hrs)
+            </li>
+            <li>
+              Aire comprimido. (Módulo con alternancia. Horas en el INA: 42 hrs
+              en la empresa: 54 hrs)
+            </li>
+          </ul>
+        </article>
+      </section>
 
-<!-- Requisitos adicionales -->
- <section id="requisitosAdicionales">
-    <article class="articulo__requisitosAdicionales">
-        <h3>Requisitos Adicionales</h3>
-        <ul>
+      <!--Perfil de salida-->
+      <section id="perfil_salida">
+        <article class="articulo__perfil">
+          <h3 class="perfil__titulo">Perfil de salida</h3>
+          <p class="perfil__descripcion">
+            El Técnico en Mantenimiento Industrial INA tiene la capacidad de
+            trabajar en Equipo, tomar el liderazgo en proyectos, comunicarse
+            efectivamente, leer planos eléctricos, hacer instalaciones
+            eléctricas, realizar instalación y mantenimiento preventivo de
+            motores eléctricos, equipos de neumática, equipo de bombeo,
+            mantenimiento de equipos electrónicos, soldar con arco revestido,
+            programar motores, armar y desarmar motores para corrección y cambio
+            de piezas, entre otras funciones relacionadas al área y que demande
+            la empresa.
+          </p>
+        </article>
+      </section>
+
+      <!--Mercado laboral-->
+      <section id="mercado_laboral">
+        <article class="articulo__mercado">
+          <h3 class="mercado__titulo">Mercado laboral</h3>
+          <ul class="mercado__lista">
+            <li>
+              Empresas de: Alimentos, Industria del Plástico, Industria Textil,
+              Talleres Especializados, Industria Médica, Industria del Papel,
+              Bananeras, Instalación y Mantenimientos de bombas de Agua, Ventas
+              de equipo Especializado, Mantenimiento y Seguimiento de Equipo por
+              parte de Empresa Especializada, entre otras muchas empresas que
+              trabajen motores eléctricos, neumática, bandas y circuitos
+              eléctricos.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Requisitos adicionales -->
+      <section id="requisitosAdicionales">
+        <article class="articulo__requisitosAdicionales">
+          <h3>Requisitos Adicionales</h3>
+          <ul>
             <li>Disponibilidad inmediata</li>
             <li>Manejo de diferentes horarios</li>
-            <li>Transporte público accesible, de preferencia propio por los horarios de trabajo</li>
+            <li>
+              Transporte público accesible, de preferencia propio por los
+              horarios de trabajo
+            </li>
             <li>Licencia de conducir</li>
             <li>Pasaporte y visa (estos dos últimos son opcionales)</li>
-        </ul>
-    </article>
- </section>
-
-</main>
+          </ul>
+        </article>
+      </section>
+    </main>
 
     <!--Footer-->
     <footer class="footer">
@@ -346,6 +384,5 @@
       </div>
       <div class="copy">&COPY; 2024 INA</div>
     </footer>
-  
-</body>
+  </body>
 </html>

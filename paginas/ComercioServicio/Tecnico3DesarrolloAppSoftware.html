@@ -1,223 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/estilos.css" />
     <title>Proyecto de vida</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="main-nav">
-      <div class="nav__inicio">
-        <a
-          href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
-          class="main-nav__inicio-itm"
-          ><img src="/SVGs/home-logo.svg" alt="Home logo"
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <div class="nav__inicio">
+          <a
+            href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
+            class="main-nav__inicio-itm"
+            ><img src="/SVGs/home-logo.svg" alt="Home logo"
+          /></a>
+        </div>
+        <div class="main-nav__sociales">
+          <a
+            href="https://www.facebook.com/institutonacionaldeaprendizaje"
+            class="main-nav__sociales-itm main-nav__sociales-itm--fb"
+            ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
+          /></a>
+          <a
+            href="https://www.youtube.com/user/inatvonline"
+            class="main-nav__sociales-itm main-nav__sociales-itm--yt"
+            ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
+          /></a>
+          <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
+            ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
+          /></a>
+        </div>
+      </nav>
+      <nav class="sub-nav">
+        <a href="#" class="sub-nav__a"
+          ><img
+            src="/Imagenes/Horizontal_blanco_21.png"
+            alt="INA logo horizontal blanco"
+            class="sub-nav__a-logo"
         /></a>
-      </div>
-      <div class="main-nav__sociales">
-        <a
-          href="https://www.facebook.com/institutonacionaldeaprendizaje"
-          class="main-nav__sociales-itm main-nav__sociales-itm--fb"
-          ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
-        /></a>
-        <a
-          href="https://www.youtube.com/user/inatvonline"
-          class="main-nav__sociales-itm main-nav__sociales-itm--yt"
-          ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
-        /></a>
-        <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
-          ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
-        /></a>
-      </div>
-    </nav>
-    <nav class="sub-nav">
-      <a href="#" class="sub-nav__a"
-        ><img
-          src="/Imagenes/Horizontal_blanco_21.png"
-          alt="INA logo horizontal blanco"
-          class="sub-nav__a-logo"
-      /></a>
-      <button class="sub-nav__btn" id="sub-nav__toggle-btn">
-        <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
-      </button>
-      <ul class="sub-nav__itms">
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="sub-nav__itm">
-          <a href="#" class="sub-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="mobile-nav" id="mobile-nav">
-      <ul class="mobile-nav__itms">
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Qué es?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
-        </li>
-        <li class="mobile-nav__itm">
-          <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <button class="sub-nav__btn" id="sub-nav__toggle-btn">
+          <img src="/SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
+        </button>
+        <ul class="sub-nav__itms">
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="sub-nav__itm">
+            <a href="#" class="sub-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav__itms">
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Qué es?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">En que consiste?</a>
+          </li>
+          <li class="mobile-nav__itm">
+            <a href="#" class="mobile-nav__itm-a">Beneficicios</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="tecnico">
+    <main class="tecnico main">
+      <h1 class="titulo">Comercio y Servicio</h1>
+      <h2 class="sub-titulo">
+        Técnico 3 Desarrollo de Aplicaciones de Software
+      </h2>
 
-        <h1 class="titulo">Comercio y Servicio</h1>
-        <h2 class="sub-titulo">Técnico 3 Desarrollo de Aplicaciones de Software</h2>
+      <!--Descripcion-->
+      <section id="descripcion">
+        <article class="articulo__descripcion">
+          <h3 class="descripcion__titulo">Descripción del programa</h3>
+          <p>
+            La persona estudiante en este programa adquiere competencias para
+            desarrollar aplicaciones de software de diferentes tipos; por
+            ejemplo: escritorio, web, mobile con acceso a base de datos para el
+            cumplimiento de requerimientos establecidos por el cliente (con base
+            en un análisis previo para establecer el diseño adecuado) con ética
+            y profesionalismo. Cabe mencionar que, la persona interesada en este
+            programa de estudio debe aprender a comunicarse con los clientes
+            internos y externos de las empresas, para llegar a la necesidad del
+            cliente y así diseñar aplicaciones de software que solucionen el
+            problema o necesidad de este. Siendo fundamental durante su
+            formación el trabajo en equipo dado a que en su trabajo tendrá que
+            relacionarse con equipos interdisciplinarios (otros profesionales).
+          </p>
+        </article>
+      </section>
 
-        <!--Descripcion-->
-        <section id="descripcion">
+      <!-- Requisitos de ingreso -->
+      <section id="Requisitos">
+        <article class="articulo__requisitos">
+          <h3 class="requisitos__titulo">Requisitos de Ingreso</h3>
+          <ul>
+            <li>Edad: Mayor de 16 años.</li>
+            <li>Nivel académico: Egresado de quinto año.</li>
+            <li>Proceso de admisión: ( X ) Sí ( ) No</li>
+          </ul>
+        </article>
+      </section>
 
-            <article class="articulo__descripcion">
-                <h3 class="descripcion__titulo">Descripción del programa</h3>
-                <p>
-                    La persona estudiante en este programa adquiere competencias para desarrollar aplicaciones 
-                    de software de diferentes tipos; por ejemplo: escritorio, web, mobile con acceso a base de 
-                    datos para el cumplimiento de requerimientos establecidos por el cliente (con base en un 
-                    análisis previo para establecer el diseño adecuado) con ética y profesionalismo.  
-                    Cabe mencionar que, la persona interesada en este programa de estudio debe aprender a 
-                    comunicarse con los clientes internos y externos de las empresas, para llegar a la necesidad 
-                    del cliente y así diseñar aplicaciones de software que solucionen el problema o necesidad de 
-                    este. Siendo fundamental durante su formación el trabajo en equipo dado a que en su trabajo 
-                    tendrá que relacionarse con equipos interdisciplinarios (otros profesionales). 
-                </p>
-            </article>
+      <!--habilidades-->
+      <section id="habilidades">
+        <article class="articulo__habilidades">
+          <h3 class="habilidades__titulo">Habilidades de funcionalidad</h3>
 
-        </section>
-
-        <!-- Requisitos de ingreso -->
-        <section id="Requisitos">
-            <article class="articulo__requisitos">
-            <h3 class="requisitos__titulo">Requisitos de Ingreso</h3>
-            <ul>
-                <li>Edad: Mayor de 16 años. </li>
-                <li>Nivel académico: Egresado de quinto año.</li>
-                <li>Proceso de admisión: ( X ) Sí  (  ) No </li>
+          <!--Habilidades fisicas-->
+          <div class="habilidades__detalles">
+            <h3 class="habilidad__titulo">Habilidades físicas</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Trabajar durante muchas horas en el uso de la computadora.
+                Motora fina para el uso de teclado y mouse.
+              </li>
             </ul>
-            </article>
-        </section>
 
-        <!--habilidades-->
-        <section id="habilidades">
-            <article class="articulo__habilidades">
-                <h3 class="habilidades__titulo">Habilidades de funcionalidad</h3>
+            <!--Habilidades Cognitivas-->
+            <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Análisis de problemas, razonamiento lógico matemático, atención,
+                orden, capacidad de memorizar términos y conceptos,
+                concentración.
+              </li>
+            </ul>
 
-                <!--Habilidades fisicas-->
-                <div class="habilidades__detalles">
-                    <h3 class="habilidad__titulo">Habilidades físicas</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                          Trabajar durante muchas horas en el uso de la computadora. 
-                          Motora fina para el uso de teclado y mouse. 
-                        </li>
-                    </ul>
+            <!--Habilidades sensoriales-->
+            <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Agudeza visual (monocular y binocular a corta y larga distancia)
+              </li>
+              <li>Percepción de formas.</li>
+              <ul>
+                <li>
+                  Habilidad visual, por ejemplo, para analizar líneas de código
+                  de programación y detectar símbolos o letras que estén
+                  generando un error en el programa.
+                </li>
+              </ul>
+            </ul>
 
-                    <!--Habilidades Cognitivas-->
-                    <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                            Análisis de problemas, razonamiento lógico matemático, 
-                            atención, orden, capacidad de memorizar términos y 
-                            conceptos, concentración. 
-                        </li>
-                    </ul>
+            <!--Otras habilidades-->
+            <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
+            <ul class="habilidad__lista">
+              <li>
+                Habilidades sociales son fundamentales: ser una persona con
+                excelente actitud, responsabilidad, trabajar bien en equipo,
+                tolerancia, respeto, buen vocabulario, buenos modales.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-                    <!--Habilidades sensoriales-->
-                    <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
-                    <ul class="habilidad__lista">
-                        <li>Agudeza visual (monocular y binocular a corta y larga distancia)</li>
-                        <li>Percepción de formas.</li>
-                        <ul>
-                            <li>
-                              Habilidad visual, por ejemplo, para analizar líneas de código 
-                              de programación y detectar símbolos o letras que estén 
-                              generando un error en el programa.
-                            </li> 
-                        </ul>
-                    </ul>
-
-                    <!--Otras habilidades-->
-                    <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
-                    <ul class="habilidad__lista">
-                        <li>
-                            Habilidades sociales son fundamentales: ser una persona con 
-                            excelente actitud, responsabilidad, trabajar bien en equipo, 
-                            tolerancia, respeto, buen vocabulario, buenos modales. 
-                        </li>
-                    </ul> 
-                </div>
-            </article>
-        </section>
-
-   <!--Tareas tipicas que se realizan-->
-<section id="tareas_tipicas">
-    <article class="articulo__tareas">
-        <h3 class="tareas__titulo"> Tareas típicas que se realizan en el programa </h3>
-        <ul class="tareas__lista">
-            <li>Analizar problemas y plantear soluciones siguiendo una metodología, crear diagramas, elaborar informes técnicos.</li>
-            <li>Utilizar software de edición multimedia (imágenes de mapas de bits, imágenes 
-              vectoriales).
-            </li>
-            <li> Utilizar software de creación de prototipos (mockups, wireframes).</li>
-            <li>Programar en HTML, CSS, javascript. </li>
-            <li>Trabajar con metodologías de administración de proyectos.</li>
-        </ul>
-    </article>
-</section>
-
-<!--Plan de estudio-->
-<section id="plan_estudio">
-    <article class="articulo__plan">
-        <h3 class="plan__titulo">Plan de estudio</h3>
-        <ul class="plan__lista">
-           <li>Producción de componentes multimedia.</li>
-           <li>Diseño de interfaces web. </li>
-           <li>Codificación de páginas web. </li>
-           <li>Diseño de algoritmos. </li>
-           <li>Programación web en el entorno cliente.</li>
-           <li>Uso de sistemas de gestión de contenidos. </li>
-           <li>Publicación de páginas web. </li>
-           <li>Planificación de proyectos web.</li>
-           <li>Desarrollo de proyectos web en el entorno.</li>
-        </ul>
-    </article>
-</section>
-
-<!--Perfil de salida-->
-<section id="perfil_salida">
-    <article class="articulo__perfil">
-        <h3 class="perfil__titulo">Perfil de salida</h3>
-        <p class="perfil__descripcion">
-            El egresado será capaz de crear componentes multimedia, diseñar interfaces web atractivas, y plantear 
-            algoritmos en pseudocódigo, diagramas y código. También dominará la programación en HTML,
-             CSS, y JavaScript, utilizará sistemas de gestión de contenidos,
-             publicará páginas web, y planificará proyectos web de manera efectiva.
-        </p>
-    </article>
-</section>
-
-<!--Mercado laboral-->
-<section id="mercado_laboral">
-    <article class="articulo__mercado">
-        <h3 class="mercado__titulo">Mercado laboral</h3>
-        <ul class="mercado__lista">
+      <!--Tareas tipicas que se realizan-->
+      <section id="tareas_tipicas">
+        <article class="articulo__tareas">
+          <h3 class="tareas__titulo">
+            Tareas típicas que se realizan en el programa
+          </h3>
+          <ul class="tareas__lista">
             <li>
-              Empresas privadas o instituciones públicas que cuenten con un área de desarrollo Web. 
+              Analizar problemas y plantear soluciones siguiendo una
+              metodología, crear diagramas, elaborar informes técnicos.
             </li>
-        </ul>
-    </article>
-</section>
+            <li>
+              Utilizar software de edición multimedia (imágenes de mapas de
+              bits, imágenes vectoriales).
+            </li>
+            <li>
+              Utilizar software de creación de prototipos (mockups, wireframes).
+            </li>
+            <li>Programar en HTML, CSS, javascript.</li>
+            <li>Trabajar con metodologías de administración de proyectos.</li>
+          </ul>
+        </article>
+      </section>
 
-</main>
+      <!--Plan de estudio-->
+      <section id="plan_estudio">
+        <article class="articulo__plan">
+          <h3 class="plan__titulo">Plan de estudio</h3>
+          <ul class="plan__lista">
+            <li>Producción de componentes multimedia.</li>
+            <li>Diseño de interfaces web.</li>
+            <li>Codificación de páginas web.</li>
+            <li>Diseño de algoritmos.</li>
+            <li>Programación web en el entorno cliente.</li>
+            <li>Uso de sistemas de gestión de contenidos.</li>
+            <li>Publicación de páginas web.</li>
+            <li>Planificación de proyectos web.</li>
+            <li>Desarrollo de proyectos web en el entorno.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!--Perfil de salida-->
+      <section id="perfil_salida">
+        <article class="articulo__perfil">
+          <h3 class="perfil__titulo">Perfil de salida</h3>
+          <p class="perfil__descripcion">
+            El egresado será capaz de crear componentes multimedia, diseñar
+            interfaces web atractivas, y plantear algoritmos en pseudocódigo,
+            diagramas y código. También dominará la programación en HTML, CSS, y
+            JavaScript, utilizará sistemas de gestión de contenidos, publicará
+            páginas web, y planificará proyectos web de manera efectiva.
+          </p>
+        </article>
+      </section>
+
+      <!--Mercado laboral-->
+      <section id="mercado_laboral">
+        <article class="articulo__mercado">
+          <h3 class="mercado__titulo">Mercado laboral</h3>
+          <ul class="mercado__lista">
+            <li>
+              Empresas privadas o instituciones públicas que cuenten con un área
+              de desarrollo Web.
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
 
     <!--Footer-->
     <footer class="footer">
@@ -290,6 +303,5 @@
       </div>
       <div class="copy">&COPY; 2024 INA</div>
     </footer>
-  
-</body>
+  </body>
 </html>
