@@ -15,6 +15,7 @@ main {
   width: 100%;
   position: fixed;
   top: 0%;
+  z-index: 10;
 }
 .main-nav {
   background-color: #cc8a00;
@@ -160,6 +161,26 @@ main {
   padding: 10px;
 }
 
+/* Articulos */
+
+.seccion__articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articulo__imagen {
+  max-width: 300px;
+  height: auto;
+  margin: 0 0 1rem 0;
+}
+
+/* Áreas vocacionales */
+
+/* .areas-vocacionales__seccion {
+  
+} */
+
 .menu__lista {
   display: flex;
   flex-wrap: wrap;
@@ -191,12 +212,6 @@ main {
   color: white;
 }
 
-.articulo__imagen {
-  max-width: 300px;
-  height: auto;
-  margin-right: 10px;
-}
-
 /*secciones de cada area*/
 .areas-vocacionales__seccion {
   margin: 5%;
@@ -204,13 +219,33 @@ main {
 
 .articulo__contenedor {
   display: flex;
-  align-items: flex-start;
-  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
 }
 
-.articulo__imagen {
-  max-width: 300px;
-  margin-right: 10%;
+.dropdown {
+  position: relative;
+}
+
+.dropdown__list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown__button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 .articulo__lista {
@@ -242,11 +277,17 @@ main {
   justify-content: flex-end;
 }
 
-.a-navegacion {
+.a-container__btn {
+  border: none;
+  background-color: white;
+  margin: 0;
+}
+
+.a-container__a {
   background-color: #003087;
   color: white;
   display: block;
-  margin: 2rem;
+  margin: 1rem;
   padding: 1rem;
   text-decoration: none;
   width: fit-content;
@@ -263,9 +304,9 @@ main {
 }
 
 .cuestionario-pregunta__input {
-  width: 50%;
+  width: 90%;
   height: 6rem;
-  margin-top: 1rem;
+  margin: 1rem auto;
 }
 
 .disclaimer {
@@ -382,6 +423,10 @@ main {
   .main__img {
     max-height: 90vh;
     transition: transform 3s ease, max-height 0.3s ease;
+  }
+
+  .cuestionario-pregunta__input {
+    width: 50%;
   }
 
   .footer-container {
