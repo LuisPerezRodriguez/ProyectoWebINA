@@ -215,6 +215,7 @@ main {
 }
 .areas-vocacionales__seccion {
   margin: 5%;
+  scroll-margin-top: 6rem;
 }
 
 .articulo__contenedor {
@@ -400,17 +401,9 @@ main {
 
 /*Estilos para cada pestaña de cursos.*/
 
-.titulo{
+.titulo {
   text-align: center;
 }
-
-
-
-
-
-
-
-
 
 /* Media Queries */
 @media (max-width: 800px) {
