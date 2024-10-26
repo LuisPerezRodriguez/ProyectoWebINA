@@ -116,7 +116,6 @@ main {
 }
 
 /* Main */
-
 .main {
   margin: auto;
   width: 90%;
@@ -199,10 +198,6 @@ main {
 }
 
 /*secciones de cada area*/
-
-.articulo__subtitulo {
-  margin-top: 5%;
-}
 .areas-vocacionales__seccion {
   margin: 5%;
 }
@@ -352,16 +347,6 @@ main {
   display: flex;
   justify-content: center;
 }
-
-/*Estilos para cada pestaña de cursos.*/
-
-.titulo{
-  text-align: center;
-}
-
-
-
-
 
 
 
