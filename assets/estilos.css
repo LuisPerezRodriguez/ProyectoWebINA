@@ -118,7 +118,6 @@ main {
 }
 
 /* Main */
-
 .main {
   margin: auto;
   width: 90%;
@@ -214,7 +213,6 @@ main {
 .articulo__subtitulo {
   margin-top: 5%;
 }
-
 .areas-vocacionales__seccion {
   margin: 5%;
 }
@@ -402,9 +400,17 @@ main {
 
 /*Estilos para cada pestaña de cursos.*/
 
-.titulo {
+.titulo{
   text-align: center;
 }
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 @media (max-width: 800px) {
