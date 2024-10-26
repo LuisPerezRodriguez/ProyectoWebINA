@@ -394,6 +394,20 @@ main {
   justify-content: center;
 }
 
+/*Estilos para cada pestaña de cursos.*/
+
+.titulo{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 @media (max-width: 800px) {
   .lista__item {
