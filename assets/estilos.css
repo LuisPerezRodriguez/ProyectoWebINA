@@ -86,7 +86,7 @@ main {
   background-color: black;
 }
 .sub-nav__btn-img {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
   height: 25px;
 }
 .mobile-nav {
@@ -95,7 +95,7 @@ main {
   justify-content: center;
   text-align: center;
   padding-right: 1.5rem;
-  height: 15rem;
+  height: fit-content;
   display: none;
 }
 .mobile-nav__itms {
@@ -106,6 +106,7 @@ main {
 }
 .mobile-nav__itm {
   list-style: none;
+  padding: 1rem;
 }
 .mobile-nav__itm a {
   text-decoration: none;
@@ -149,17 +150,16 @@ main {
 }
 
 /*areas vocacionales nav*/
+.areas-vocacionales {
+  margin-top: 10rem;
+}
+
 .areas-vocacionales__titulo {
   text-align: center;
 }
 
 .areas-vocacionales__menu {
-  margin-top: 2%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+  display: none;
 }
 
 /* Articulos */
@@ -177,10 +177,6 @@ main {
 }
 
 /* Áreas vocacionales */
-
-/* .areas-vocacionales__seccion {
-  
-} */
 
 .menu__lista {
   display: flex;
@@ -218,6 +214,7 @@ main {
 .articulo__subtitulo {
   margin-top: 5%;
 }
+
 .areas-vocacionales__seccion {
   margin: 5%;
 }
@@ -227,30 +224,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50vw;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown__list {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
-  z-index: 1;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.dropdown__button {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
+  width: 70vw;
 }
 
 .articulo__lista {
@@ -260,7 +234,7 @@ main {
 }
 
 .articulo__lista li {
-  margin-bottom: 10px;
+  padding: 0.5rem;
   color: black;
 }
 
@@ -275,6 +249,32 @@ main {
   color: blue;
 }
 
+/* Dropdowns */
+
+.dropdown {
+  margin: 10px;
+}
+
+.dropdown__btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.dropdown__list {
+  display: none;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  z-index: 1;
+  list-style-type: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
 /* Anchors para navegación entre páginas  */
 
 .a-container {
@@ -283,9 +283,14 @@ main {
 }
 
 .a-container__btn {
-  border: none;
-  background-color: white;
-  margin: 0;
+  background-color: #003087;
+  color: white;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  width: fit-content;
+  text-align: right;
 }
 
 .a-container__a {
@@ -306,10 +311,11 @@ main {
 
 .cuestionario-pregunta {
   margin: 2rem 0;
+  padding: 0 2rem;
 }
 
 .cuestionario-pregunta__input {
-  width: 90%;
+  width: 100%;
   height: 6rem;
   margin: 1rem auto;
 }
@@ -396,17 +402,9 @@ main {
 
 /*Estilos para cada pestaña de cursos.*/
 
-.titulo{
+.titulo {
   text-align: center;
 }
-
-
-
-
-
-
-
-
 
 /* Media Queries */
 @media (max-width: 800px) {
@@ -456,5 +454,13 @@ main {
   }
   .horario-atencion p {
     text-align: center;
+  }
+  .areas-vocacionales__menu {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
   }
 }
