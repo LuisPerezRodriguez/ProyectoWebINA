@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/estilos.css" />
+    <script src="assets/script.js" defer></script>
     <title>Proyecto de vida</title>
   </head>
   <body>
@@ -69,70 +70,173 @@
       </nav>
     </header>
 
-      <main  class="areas-vocacionales">
+    <main class="areas-vocacionales">
+      <h1 class="areas-vocacionales__titulo">Áreas Vocacionales</h1>
 
-        <h1 class="areas-vocacionales__titulo">Áreas Vocacionales</h1>
-    
-        <!-- Menú de áreas vocacionales -->
-        <nav class="areas-vocacionales__menu">
-            <ul class="menu__lista">
-                <li class="lista__item"><a href="#Agropecuario" class="lista__link">Agropecuario</a></li>
-                <li class="lista__item"><a href="#ComercioServicio" class="lista__link">Comercio y Servicios</a></li>
-                <li class="lista__item"><a href="#Electrico" class="lista__link">Eléctrico</a></li>
-                <li class="lista__item"><a href="#IndustriaAlimentaria" class="lista__link">Industria Alimentaria</a></li>
-                <li class="lista__item"><a href="#IndustriaGrafica" class="lista__link">Industria Gráfica</a></li>
-                <li class="lista__item"><a href="#MecanicaVehiculos" class="lista__link">Mecánica de Vehículos</a></li>
-                <li class="lista__item"><a href="#MetalMecanica" class="lista__link">Metal Mecánica</a></li>
-                <li class="lista__item"><a href="#Turismo" class="lista__link">Turismo</a></li>
+      <!-- Menú de áreas vocacionales -->
+      <nav class="areas-vocacionales__menu">
+        <ul class="menu__lista">
+          <li class="lista__item">
+            <a href="#Agropecuario" class="lista__link">Agropecuario</a>
+          </li>
+          <li class="lista__item">
+            <a href="#ComercioServicio" class="lista__link"
+              >Comercio y Servicios</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#Electrico" class="lista__link">Eléctrico</a>
+          </li>
+          <li class="lista__item">
+            <a href="#IndustriaAlimentaria" class="lista__link"
+              >Industria Alimentaria</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#IndustriaGrafica" class="lista__link"
+              >Industria Gráfica</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#MecanicaVehiculos" class="lista__link"
+              >Mecánica de Vehículos</a
+            >
+          </li>
+          <li class="lista__item">
+            <a href="#MetalMecanica" class="lista__link">Metal Mecánica</a>
+          </li>
+          <li class="lista__item">
+            <a href="#Turismo" class="lista__link">Turismo</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Agropecuario-->
+      <section id="Agropecuario" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Agropecuario</h2>
+          <div class="articulo__contenedor dropdown">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del área de Agropecuario"
+            />
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
+              <li>
+                <a href="/paginas/Agropecuario/Tecnico2ProduccionPecuaria.html"
+                  >Técnico 2 Producción Pecuaria</a
+                >
+              </li>
             </ul>
-        </nav>
-    
-        <!--Agropecuario-->
-        <section id="Agropecuario"class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Agropecuario</h2>
-                <div class="articulo__contenedor">
-                  <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del área de Agropecuario">
-                  <ul class="articulo__lista">
-                      <li><a href="/paginas/Agropecuario/Tecnico2ProduccionPecuaria.html">Técnico 2 Producción Pecuaria</a></li>
-                  </ul>
-                </div>
-            </article>
-        </section>
-    
-        <!--Comercio y servicios-->
-        <section id="ComercioServicio" class="areas-vocacionales__seccion">
-            <article class="seccion__articulo">
-                <h2 class="articulo__subtitulo">Comercio y Servicios</h2>
-              <div class="articulo__contenedor">
-                <img src="https://picsum.photos/300/300" class="articulo__imagen" alt="Ficha representativa del área de Comercio y Servicios">
-                <ul class="articulo__lista">
-                    <li><a href="/paginas/ComercioServicio/TecnicoAsistenteAdministrativo.html">Técnico Asistente Administrativo</a></li>
-                    <li><a href="/paginas/ComercioServicio/Tecnico1AsistenciaContabilidad.html">Técnico 1 Asistencia en Contabilidad</a></li>
-                    <li><a href="/paginas/ComercioServicio/TecnicoAsistenteMercadeo.html">Técnico Asistente de Mercadeo</a></li>
-                    <li><a href="/paginas/ComercioServicio/TecnicoCalidadSoftware.html">Técnico Controlador(a) de la Calidad del Software</a></li>
-                    <li><a href="/paginas/ComercioServicio/Tecnico3DesarrolloAppSoftware.html">Técnico 3 Desarrollo de Aplicaciones de Software</a></li>
-                    <li><a href="/paginas/ComercioServicio/Tecnico2DesarrolloPaginasWeb.html">Técnico 2 Desarrollo de páginas Web</a></li>
-                    <li><a href="/paginas/ComercioServicio/TecnicoGestorSaludOcupacional.html">Técnico Gestor en Salud Ocupacional y Ambiente</a></li>
-                    <li><a href="/paginas/ComercioServicio/InglesBasico.html">Inglés básico</a></li>
-                </ul>
-              </div>
-            </article>
-        </section>
+          </div>
+        </article>
+      </section>
+
+      <!--Comercio y servicios-->
+      <section id="ComercioServicio" class="areas-vocacionales__seccion">
+        <article class="seccion__articulo">
+          <h2 class="articulo__subtitulo">Comercio y Servicios</h2>
+          <div class="articulo__contenedor dropdown">
+            <img
+              src="https://picsum.photos/300/300"
+              class="articulo__imagen"
+              alt="Ficha representativa del área de Comercio y Servicios"
+            />
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/TecnicoAsistenteAdministrativo.html"
+                  >Técnico Asistente Administrativo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/Tecnico1AsistenciaContabilidad.html"
+                  >Técnico 1 Asistencia en Contabilidad</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/TecnicoAsistenteMercadeo.html"
+                  >Técnico Asistente de Mercadeo</a
+                >
+              </li>
+              <li>
+                <a href="/paginas/ComercioServicio/TecnicoCalidadSoftware.html"
+                  >Técnico Controlador(a) de la Calidad del Software</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/Tecnico3DesarrolloAppSoftware.html"
+                  >Técnico 3 Desarrollo de Aplicaciones de Software</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/Tecnico2DesarrolloPaginasWeb.html"
+                  >Técnico 2 Desarrollo de páginas Web</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/paginas/ComercioServicio/TecnicoGestorSaludOcupacional.html"
+                  >Técnico Gestor en Salud Ocupacional y Ambiente</a
+                >
+              </li>
+              <li>
+                <a href="/paginas/ComercioServicio/InglesBasico.html"
+                  >Inglés básico</a
+                >
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
       <!--Electrico-->
       <section id="Electrico" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Electrico</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
               alt="Ficha representativa del área electrica"
             />
-            <ul class="articulo__lista">
-              <li><a href="/paginas/Electrico/Tecnico2MantenimientoIndustrial.html">Técnico 2 Mantenimiento Industrial Dual</a></li>
-              <li><a href="/paginas/Electrico/TecnicoEspecializadoTelematica.html">Técnico Especializado en Telemática</a></li>
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
+              <li>
+                <a
+                  href="/paginas/Electrico/Tecnico2MantenimientoIndustrial.html"
+                  >Técnico 2 Mantenimiento Industrial Dual</a
+                >
+              </li>
+              <li>
+                <a href="/paginas/Electrico/TecnicoEspecializadoTelematica.html"
+                  >Técnico Especializado en Telemática</a
+                >
+              </li>
             </ul>
           </div>
         </article>
@@ -142,13 +246,20 @@
       <section id="IndustriaAlimentaria" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Industria Alimentaria</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
               alt="Ficha representativa del area Industria Alimentaria"
             />
-            <ul>
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
               <!--En el documento ni no viene nada, preguntar si se agrega?-->
             </ul>
           </div>
@@ -159,15 +270,25 @@
       <section id="IndustriaGrafica" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Industria Gráfica</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
               alt="Ficha representativa del area Industria Gráfica"
             />
-            <ul class="articulo__lista">
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
               <li>
-                <a href="/paginas/Industria-Grafica/Tecnico1AdministracionContenidoVisual.html" >Técnico 1 Administración de contenido visual-digital</a>
+                <a
+                  href="/paginas/Industria-Grafica/Tecnico1AdministracionContenidoVisual.html"
+                  >Técnico 1 Administración de contenido visual-digital</a
+                >
               </li>
             </ul>
           </div>
@@ -178,19 +299,32 @@
       <section id="MecanicaVehiculos" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Mecanica Vehiculos</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
               alt="Ficha representativa del area de Mecanica de vehiculos"
             />
-            <ul class="articulo__lista">
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
               <li>
-                <a href="/paginas/Mecanica-Vehiculos/TecnicoReparacionMotocicletasCuadras.html">Técnico 2 Reparación de los Sistemas de Motocicletas y Cuadraciclos</a
+                <a
+                  href="/paginas/Mecanica-Vehiculos/TecnicoReparacionMotocicletasCuadras.html"
+                  >Técnico 2 Reparación de los Sistemas de Motocicletas y
+                  Cuadraciclos</a
                 >
               </li>
               <li>
-                <a href="/paginas/Mecanica-Vehiculos/Tecnico3ReparacionVehiculosLivianos.html">Técnico 3 Reparación de los Sistemas del Vehículo Liviano</a >
+                <a
+                  href="/paginas/Mecanica-Vehiculos/Tecnico3ReparacionVehiculosLivianos.html"
+                  >Técnico 3 Reparación de los Sistemas del Vehículo Liviano</a
+                >
               </li>
             </ul>
           </div>
@@ -201,13 +335,25 @@
       <section id="MetalMecanica" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Metal Mecanica</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
-              alt="Ficha representativa del area de metal mecanica--"/>
-            <ul class="articulo__lista">
-              <li><a href="/paginas/Metal-Mecanica/Tecnico3MecanicaPresicion.html">Técnico 3 en Mecánica de Precisión</a></li>
+              alt="Ficha representativa del area de metal mecanica--"
+            />
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
+              <li>
+                <a href="/paginas/Metal-Mecanica/Tecnico3MecanicaPresicion.html"
+                  >Técnico 3 en Mecánica de Precisión</a
+                >
+              </li>
             </ul>
           </div>
         </article>
@@ -217,13 +363,20 @@
       <section id="Turismo" class="areas-vocacionales__seccion">
         <article class="seccion__articulo">
           <h2 class="articulo__subtitulo">Turismo</h2>
-          <div class="articulo__contenedor">
+          <div class="articulo__contenedor dropdown">
             <img
               src="https://picsum.photos/300/300"
               class="articulo__imagen"
               alt="Ficha representativa del area de Turismo"
             />
-            <ul class="articulo__lista">
+            <button class="dropdown__button">
+              Mostrar cursos
+              <img
+                src="/SVGs/flecha-abajo.svg"
+                alt="Cabeza de flecha apunta hacia abajo"
+              />
+            </button>
+            <ul class="articulo__lista dropdown__list">
               <li>
                 <a href="#"
                   >Técnico 1 en Operaciones de Asistencia en la Cocina</a
