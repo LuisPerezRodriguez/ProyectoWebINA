@@ -213,10 +213,8 @@ main {
 }
 
 /*secciones de cada area*/
-.lista__item{
-  border:solid 1px black;
-  margin: 5px;
-  border-radius: 5px;
+.lista__item a{
+  color: black;
 }
 
 
