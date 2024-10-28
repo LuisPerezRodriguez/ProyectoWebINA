@@ -1,3 +1,14 @@
+/*tipo de fuente para los titulo y subtitulo*/
+h1,h2,h3{
+  font-family: "Manjari", sans-serif;
+}
+
+/* Fuente para el resto del contenido AVENIR NEXT 
+body, p, ul, li, a {
+   font-family; 
+}
+ */
+
 html {
   height: 100%;
   scroll-behavior: smooth;
