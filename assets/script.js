@@ -2,6 +2,14 @@ const toggleBtn = document.getElementById('sub-nav__toggle-btn');
 const mobileNav = document.getElementById('mobile-nav');
 const mobileNavAnchors = document.getElementsByClassName('mobile-nav__itm-a');
 
+// Si el ancho de la ventana es mayor o igual que 1000px, eliminar la clase 'show'
+function checkWindowSize() {
+  if (window.innerWidth > 800) {
+    mobileNav.classList.remove('show');
+  }
+}
+window.addEventListener('resize', checkWindowSize);
+
 document.querySelectorAll('.dropdown__btn').forEach((button) => {
   button.addEventListener('click', () => {
     const dropdownList = button.nextElementSibling; // Selecciona el hermano que en este caso es el ul asociado
@@ -41,10 +49,5 @@ document
     }
   });
 
-// Si el ancho de la ventana es mayor o igual que 1000px, eliminar la clase 'show'
-function checkWindowSize() {
-  if (window.innerWidth >= 1000) {
-    mobileNav.classList.remove('show');
-  }
-}
+
 window.addEventListener('resize', checkWindowSize);
