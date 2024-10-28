@@ -204,11 +204,17 @@ main {
 }
 
 .lista__link:hover {
-  background-color: blue;
+  background-color:#003c5e;
   color: white;
 }
 
 /*secciones de cada area*/
+.lista__item{
+  border:solid 1px black;
+  margin: 5px;
+  border-radius: 5px;
+}
+
 
 .articulo__subtitulo {
   margin-top: 5%;
