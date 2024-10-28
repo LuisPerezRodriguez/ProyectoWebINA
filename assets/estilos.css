@@ -84,8 +84,8 @@ main {
  
 .sub-nav__itm:hover {  
   border-radius: 10px;
-  transform: perspective(500px) scaleX(1.20) translateZ(15px);
-  box-shadow: 0 4px 8px white;
+  text-decoration: underline solid white;
+  box-shadow: 0 1px 1px rgb(174, 172, 172);
 }
     
 
@@ -265,6 +265,8 @@ main {
   margin: 0;
 }
 
+
+
 .articulo__lista li {
   padding: 0.5rem 0;
   color: black;
@@ -276,10 +278,15 @@ main {
   text-decoration: none;
   font-size: 18px;
   color: black;
+  transition: color 0.3s ease-in-out;
 }
 
+
+
+/* Efecto hover para los enlaces */
 .articulo__lista a:hover {
-  color: blue;
+  color: #003087; 
+  text-decoration:underline;
 }
 
 /* Dropdowns */
