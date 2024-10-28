@@ -445,6 +445,12 @@ main {
   text-align: center;
 }
 
+/*imagenes de cada area */
+.articulo__imagen{
+  max-width: 500px;
+  height: auto;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 800px) {
