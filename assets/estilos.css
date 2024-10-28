@@ -147,6 +147,10 @@ main {
   text-align: center;
 }
 
+.subtitulo--FOVO{
+  text-align: center;
+}
+
 /* Título secundario h2 */
 .main__sec-title {
   scroll-margin-top: 8rem;
@@ -166,7 +170,6 @@ main {
 }
 
 /* Articulos */
-
 .seccion__articulo {
   display: flex;
   flex-direction: column;
