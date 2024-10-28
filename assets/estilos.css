@@ -77,12 +77,26 @@ main {
 
 .sub-nav__itm {
   list-style: none;
+  font-size: 12px;
+  transition:0.3s;
 }
+
+ 
+.sub-nav__itm:hover {  
+  border-radius: 10px;
+  transform: perspective(500px) scaleX(1.20) translateZ(15px);
+  box-shadow: 0 4px 8px white;
+}
+    
 
 .sub-nav__itm-a {
   text-decoration: none;
   color: #ffffff;
 }
+
+
+
+
 .sub-nav__a {
   display: flex;
   align-items: center;
