@@ -197,6 +197,7 @@ main {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 5px;
 }
 
 .lista__link {
@@ -213,8 +214,10 @@ main {
 }
 
 /*secciones de cada area*/
-.lista__item a{
-  color: black;
+.lista__item{
+  border:solid 1px black;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 
@@ -414,10 +417,6 @@ main {
 
 /* Media Queries */
 @media (max-width: 800px) {
-  .lista__item {
-    width: 100%;
-    margin-bottom: 2px;
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -446,6 +445,11 @@ main {
 
   .cuestionario-pregunta__input {
     width: 50%;
+  }
+
+  .lista__item {
+    width: 100%;
+    margin-bottom: 2px;
   }
 
   .footer-container {
