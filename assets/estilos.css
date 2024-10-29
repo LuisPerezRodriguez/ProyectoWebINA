@@ -215,9 +215,10 @@ main {
 }
 
 .articulo__imagen {
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   margin: 0 0 1rem 0;
+  border-radius: 5%;
 }
 
 /* Áreas vocacionales */
