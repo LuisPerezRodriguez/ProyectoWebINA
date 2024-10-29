@@ -1,6 +1,8 @@
 /*tipo de fuente para los titulo y subtitulo*/
-h1,h2,h3{
-  font-family: "Manjari", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: 'Manjari', sans-serif;
 }
 
 /* Fuente para el resto del contenido AVENIR NEXT 
@@ -78,22 +80,19 @@ main {
 .sub-nav__itm {
   list-style: none;
   font-size: 12px;
-  transition:0.3s;
+  transition: 0.3s;
 }
 
- 
-.sub-nav__itm:hover {  
+.sub-nav__itm:hover {
   border-radius: 10px;
   text-decoration: underline solid white;
   box-shadow: 0 1px 1px rgb(174, 172, 172);
 }
-    
 
 .sub-nav__itm-a {
   text-decoration: none;
   color: #ffffff;
 }
-
 
 .sub-nav__a {
   display: flex;
@@ -170,7 +169,7 @@ main {
   text-align: center;
 }
 
-.subtitulo--FOVO{
+.subtitulo--FOVO {
   text-align: center;
   scroll-margin-top: 8rem;
 }
@@ -194,6 +193,18 @@ main {
 }
 
 /* Articulos */
+
+.secciones-contenedor {
+  position: relative;
+}
+
+.volver-btn {
+  position: sticky;
+  right: 0%;
+  top: 80%;
+  z-index: 1;
+}
+
 .seccion__articulo {
   display: flex;
   flex-direction: column;
@@ -234,7 +245,7 @@ main {
   display: block;
   padding: 10px;
   border-radius: 5px;
-  background-color:#003c5e;
+  background-color: #003c5e;
   color: white;
 }
 
@@ -266,8 +277,6 @@ main {
   margin: 0;
 }
 
-
-
 .articulo__lista li {
   padding: 0.5rem 0;
   color: black;
@@ -282,12 +291,10 @@ main {
   transition: color 0.3s ease-in-out;
 }
 
-
-
 /* Efecto hover para los enlaces */
 .articulo__lista a:hover {
-  color: #003087; 
-  text-decoration:underline;
+  color: #003087;
+  text-decoration: underline;
 }
 
 /* Dropdowns */
@@ -447,7 +454,7 @@ main {
 }
 
 /*imagenes de cada area */
-.articulo__imagen{
+.articulo__imagen {
   max-width: 500px;
   height: auto;
 }
@@ -507,7 +514,7 @@ main {
     align-items: center;
     padding: 10px;
   }
-  .articulo__contenedor{
+  .articulo__contenedor {
     flex-direction: row;
     width: 90%;
     margin: 0;
@@ -515,22 +522,22 @@ main {
     justify-content: left;
   }
 
-  .articulo__imagen{
+  .articulo__imagen {
     margin: 0;
   }
 
-  .seccion__articulo{
+  .seccion__articulo {
     display: flex;
     align-items: flex-start;
     width: 80%;
     margin: auto;
   }
 
-  .dropdown__btn{
+  .dropdown__btn {
     display: none;
   }
-  
-  .dropdown__list{
+
+  .dropdown__list {
     display: flex;
     flex-direction: column;
     width: 100%;
