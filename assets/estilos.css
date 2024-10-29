@@ -172,6 +172,7 @@ main {
 
 .subtitulo--FOVO{
   text-align: center;
+  scroll-margin-top: 8rem;
 }
 
 /* Título secundario h2 */
