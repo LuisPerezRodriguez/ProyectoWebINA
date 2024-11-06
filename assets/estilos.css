@@ -344,6 +344,7 @@ main {
 
 .article-proyecto {
   margin: 1rem;
+  border: 3px solid #cc8a00;
 }
 
 /*secciones de cada area*/
@@ -448,6 +449,18 @@ main {
 /* Form */
 .cuestionario {
   margin-bottom: 0;
+}
+
+.cuestionario__legend {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 1rem;
+  border: 3px solid#cc8a00;
+}
+
+.cuestionario__field {
+  background-color: #b6b4b4;
+  border-radius: 50px;
 }
 
 .cuestionario-pregunta {
