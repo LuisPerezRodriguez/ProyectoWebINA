@@ -1,3 +1,4 @@
+
 article {
   --img-scale: 1.001;
   --title-color: black;
@@ -10,6 +11,7 @@ article {
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
+  padding: 25px /*para que no quede pegado al borde*/
 }
 
 article a::after {
@@ -78,6 +80,7 @@ article:has(:hover, :focus) {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
 }
+
 
 /*tipo de fuente para los titulo y subtitulo*/
 h1,
