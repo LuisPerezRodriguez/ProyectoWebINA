@@ -102,9 +102,7 @@ body {
   line-height: 1.5;
   background-image: linear-gradient(45deg, #d3d3d3, #f0f0f0);
 }
-main {
-  color: black;
-}
+
 
 /* Header main nav */
 .header {
@@ -150,7 +148,7 @@ main {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
+ 
   text-transform: uppercase;
   font-weight: 400;
   line-height: 40px;
@@ -158,12 +156,17 @@ main {
 
 .sub-nav__itms {
   display: none;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 0;
+  margin: 0;
 }
 
 .sub-nav__itm {
   list-style: none;
-  font-size: 16px;
+  font-size:0.875rem;
   transition: 0.3s;
+  margin-right: 5px;
 }
 
 .sub-nav__itm:hover {
@@ -181,6 +184,10 @@ main {
   display: flex;
   align-items: center;
 }
+
+
+
+
 
 .sub-nav__a-logo {
   width: 60%;
@@ -231,10 +238,13 @@ main {
 .main {
   margin: auto;
   width: 90%;
+  color: black;
+
 }
 
 .main__sec {
   margin: 3rem 0;
+  
 }
 
 .main__img-container {
@@ -684,3 +694,5 @@ main {
     height: 315px; 
   }
 }
+
+
