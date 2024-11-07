@@ -247,7 +247,7 @@ body {
 .main__img {
   margin: 0;
   width: 90%;
-  border-radius: 40px;
+  border-radius: 20px;
   transition: transform 1s ease, max-height 0.3s ease;
 }
 
@@ -291,7 +291,7 @@ body {
 
 .volver-btn {
   position: sticky;
-  top: 90%;
+  top: 88%;
   z-index: 1;
 }
 
@@ -333,11 +333,11 @@ body {
   min-width: 10rem;
   text-decoration: none;
   display: block;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   background-color: #003c5e;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .lista__link:hover {
@@ -367,7 +367,7 @@ body {
   width: 100%;
 }
 .articulo__figure{
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -409,14 +409,12 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 50px;
+  margin-top: 1.5rem;
 }
 
 .dropdown__list {
   display: none;
-  background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
   z-index: 1;
   list-style-type: none;
   margin: 1rem 0 0 0;
@@ -434,7 +432,7 @@ body {
 }
 
 .a-container__btn {
-  background-color: #003087;
+  background-color: #003c5e;
   color: white;
   display: block;
   margin: 1rem;
@@ -442,10 +440,11 @@ body {
   text-decoration: none;
   width: fit-content;
   text-align: right;
+  border-radius: 10px;
 }
 
 .a-container__a {
-  background-color: #003087;
+  background-color: #003c5e;
   color: white;
   display: block;
   margin: 1rem;
@@ -454,6 +453,7 @@ body {
   width: fit-content;
   text-align: right;
   border: 3px solid transparent;
+  border-radius: 10px;
 }
 
 .btn-visibility{
@@ -652,12 +652,7 @@ body {
     align-items: center;
     padding: 10px;
   }
-  .articulo__contenedor {
-    flex-direction: row;
-    margin: 0;
-    flex: 1;
-    justify-content: left;
-  }
+
 
   .articulo__imagen {
     margin: 0;
@@ -685,10 +680,16 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .articles {
-    grid-template-columns: repeat(3, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, minmax(310px, 1fr));
   }
   .btn-visibility{
     display: inline;
+  }
+  .articulo__contenedor {
+    flex-direction: row;
+    margin: 0;
+    flex: 1;
+    justify-content: left;
   }
 }
 
