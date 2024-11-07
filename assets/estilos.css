@@ -565,6 +565,26 @@ main {
   height: auto;
 }
 
+
+/*contenedor del video */
+.video-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto;
+}
+
+/* Estilo del iframe */
+.video-container iframe {
+  width: 100%;
+  max-width: 800px; 
+  height: 450px; 
+  border: none; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  border-radius: 5px;
+}
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 800px) {
@@ -655,5 +675,12 @@ main {
 @media only screen and (min-width: 1000px) {
   .articles {
     grid-template-columns: repeat(3, minmax(320px, 1fr));
+  }
+}
+
+/*video*/
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 315px; 
   }
 }
