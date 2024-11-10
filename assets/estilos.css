@@ -48,7 +48,6 @@ article a {
   color: #28666e;
 }
 
-/* using the has() relational pseudo selector to update our custom properties */
 article:has(:hover, :focus) {
   --img-scale: 1.1;
   --title-color: #cc8a00;
@@ -237,6 +236,15 @@ hr {
 .main__sec {
   margin: 3rem 0;
 }
+.bg-container {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+.bienvenida__titulo {
+  text-align: center;
+}
 
 .main__img-container {
   display: flex;
@@ -254,6 +262,18 @@ hr {
   text-align: center;
   text-decoration: underline #cc8a00 1.5px;
   text-underline-offset: 5px;
+}
+
+.enlace-orientacion-vocacional {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+.enlace-orientacion-vocacional:hover {
+  color: #cc8a00;
+  text-decoration: underline;
 }
 
 .subtitulo--FOVO {
