@@ -15,7 +15,6 @@ body {
   margin: 8rem 0;
   line-height: 2;
   background-color: #f0f0f0;
-  font-size: 2rem;
 }
 
 hr {
@@ -172,6 +171,9 @@ hr {
 }
 .bienvenida__titulo {
   text-align: center;
+}
+.main{
+    font-size: 2rem;
 }
 
 .main__img-container {
