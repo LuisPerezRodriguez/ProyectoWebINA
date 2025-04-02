@@ -42,7 +42,7 @@ document
     // y muestra los mensajes de validación predeterminados del navegador.
     if (this.checkValidity()) {
       // Redirigir a la página deseada
-      window.location.href = '/paginas/AreasVocacionales.html';
+      window.location.href = '/ProyectoWebINA/paginas/AreasVocacionales.html';
     } else {
       // Si no es válido, va a mostrar los mensajes de campo requerido del form
       this.reportValidity();
