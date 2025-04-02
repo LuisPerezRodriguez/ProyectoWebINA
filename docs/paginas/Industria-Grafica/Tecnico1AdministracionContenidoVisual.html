@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="author"
-      content="Jesus Moscoso Chavarría, Luis Pérez Rodríguez"
-    />
-    <link rel="stylesheet" href="/assets/estilos.css" />
+    <link rel="stylesheet" href="../../assets/estilos.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <script src="/assets/script.js" defer></script>
+    <script src="../../assets/script.js" defer></script>
     <title>Proyecto de vida</title>
   </head>
   <body>
@@ -23,29 +19,29 @@
           <a
             href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
             class="main-nav__inicio-itm"
-            ><img src="/SVGs/home-logo.svg" alt="Ir a la página de inicio"
+            ><img src="../../SVGs/home-logo.svg" alt="Home logo"
           /></a>
         </div>
         <div class="main-nav__sociales">
           <a
             href="https://www.facebook.com/institutonacionaldeaprendizaje"
             class="main-nav__sociales-itm main-nav__sociales-itm--fb"
-            ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
+            ><img src="../../SVGs/facebook-logo.svg" alt="Facebook logo"
           /></a>
           <a
-            href="https://www.youtube.com/watch?v=XcSVQWRpaZc"
+            href="https://www.youtube.com/user/inatvonline"
             class="main-nav__sociales-itm main-nav__sociales-itm--yt"
-            ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
+            ><img src="../../SVGs/youtube-logo.svg" alt="Youtube logo"
           /></a>
           <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
-            ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
+            ><img src="../../SVGs/twitter-logo.svg" alt="Twitter logo"
           /></a>
         </div>
       </nav>
       <!--fin redes sociales-->
 
       <nav class="sub-nav">
-        <a href="/index.html" class="sub-nav__a"
+        <a href="../../../index.html" class="sub-nav__a"
           ><img
             src="/Imagenes/Horizontal_blanco_21.png"
             alt="INA logo horizontal blanco"
@@ -53,7 +49,11 @@
         /></a>
 
         <button class="sub-nav__btn" id="sub-nav__toggle-btn">
-          <img src="/SVGs/bars.svg" alt="Abrir menú de navegación" class="sub-nav__btn-img" />
+          <img
+            src="../../SVGs/bars.svg"
+            alt="Barras"
+            class="sub-nav__btn-img"
+          />
         </button>
 
         <!--escritorio-->
@@ -111,28 +111,30 @@
     <main class="main">
       <figure class="bg-container">
         <img
-          src="/Imagenes/bg-Comercio-Servicios.jpg"
-          alt="Imagen de fondo con íconos que representan comercio y servicios"
+          src="../../Imagenes/bg-Industria-Grafica.jpg"
+          alt="Imagen de fondo con formas y colores que representan la industria gráfica"
         />
       </figure>
+      <!--Area a la que pertenece-->
       <h1 class="main__title">
-        <i class="material-icons">language</i> Comercio y Servicios
+        <i class="material-icons">brush</i> Industria Gráfica
       </h1>
       <div class="main-container">
-        <h2 class="sub-titulo">Técnico 2 Desarrollo de páginas Web</h2>
-
+        <!--Nombre del curso-->
+        <h2 class="sub-titulo">
+          Técnico 1 Administración de contenido visual-digital
+        </h2>
         <!--Descripcion-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="descripcion">
             Descripción del programa
           </h3>
           <p>
-            El programa comprende el área de Front End, esto implica trabajar
-            con tecnologías del lado del cliente, como HTML, CSS y JavaScript,
-            para crear páginas web interactivas y visualmente atractivas.
-            También se estudia software de manejo de imágenes, software de
-            diseño de interfaces (mockups, wireframes), planificación de
-            proyectos, entre otros temas.
+            Es un programa educativo que permite a la persona conocer sobre el
+            diseño gráfico elemental, generación de contenido y manejo de redes
+            sociales. Además, la persona estudiante puede explorar un poco sobre
+            marketing y fotografía para completar su formación. Además, es
+            correquisito para el técnico 2 “Diseño gráfico”.
           </p>
         </section>
         <hr />
@@ -140,54 +142,65 @@
         <section class="main__sec">
           <h3 class="main__sec-title" id="requisitos">Requisitos de Ingreso</h3>
           <ul>
-            <li><strong>Edad:</strong> Mayor de 15 años.</li>
-            <li>
-              <strong>Nivel académico:</strong> Certificado de noveno año.
-            </li>
+            <li><strong>Edad:</strong> Mayor de 17 años.</li>
+            <li><strong>Nivel académico:</strong> Bachillerato</li>
             <li><strong>Proceso de admisión:</strong> (X) Sí ( ) No</li>
           </ul>
         </section>
 
-        <!--Habilidades-->
-        <hr />
+        <!--habilidades-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="habilidades">
             Habilidades de funcionalidad
           </h3>
 
+          <!--Habilidades fisicas-->
           <div class="habilidades__detalles">
             <h3 class="habilidad__titulo">Habilidades físicas</h3>
             <ul class="habilidad__lista">
               <li>
-                Trabajar durante muchas horas en el uso de la computadora.
-                Motora fina para el uso de teclado y mouse.
+                Motora fina: Tener facilidad para realizar trazos finos de
+                dibujo y sensibilidad artística.
+              </li>
+              <li>
+                Motora gruesa: Manejo de su cuerpo para ciertas posiciones para
+                la fotografía (agarres de dispositivas e instrumentos).
               </li>
             </ul>
             <hr />
+            <!--Habilidades Cognitivas-->
             <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
             <ul class="habilidad__lista">
               <li>
-                Análisis de problemas, razonamiento lógico matemático, atención,
-                orden, capacidad de memorizar términos y conceptos,
-                concentración.
+                Alto desarrollo de la compresión espacial, para que pueda
+                dimensionar las medidas de sus proyectos. Atención y compresión
+                para seguir instrucciones de sus procedimientos para realizar en
+                tiempo los proyectos asignados.
               </li>
             </ul>
             <hr />
-            <h3 class="habilidad__titulo">Habilidades Sensoriales</h3>
+            <!--Habilidades sensoriales-->
+            <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
             <ul class="habilidad__lista">
               <li>
-                Habilidad visual, por ejemplo, para analizar líneas de código de
-                programación y detectar símbolos o letras que estén generando un
-                error en el programa
+                Agudeza visual (monocular y binocular a corta y larga distancia)
               </li>
+              <li>Percepción de formas.</li>
             </ul>
             <hr />
+            <!--Otras habilidades-->
             <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
             <ul class="habilidad__lista">
               <li>
-                Habilidades sociales son fundamentales: ser una persona con
-                excelente actitud, responsabilidad, trabajar bien en equipo,
-                tolerancia, respeto, buen vocabulario, buenos modales.
+                Oratoria: Capacidad de comunicación para transmitir el valor de
+                los productos que diseña.
+              </li>
+              <li>
+                Habilidades blandas: Trabajo en equipo, colaboración,
+                iniciativa, sentido de calidad en lo que produce, sentido ético
+                para el uso de contenido en el respeto de los derechos de autor,
+                pensamiento crítico y analítico para generar trabajos auténticos
+                a nivel personal como grupal.
               </li>
             </ul>
           </div>
@@ -200,35 +213,37 @@
           </h3>
           <ul class="tareas__lista">
             <li>
-              Analizar problemas y plantear soluciones siguiendo una
-              metodología, crear diagramas, elaborar informes técnicos.
+              Generar campañas de marketing: analizar el público meta, tiempos,
+              tono de la campaña, entre otros.
             </li>
             <li>
-              Utilizar software de edición multimedia (imágenes de mapas de
-              bits, imágenes vectoriales).
+              Crear material con movimiento como videos cortos para productos o
+              servicios dirigido a diferentes sectores de productivos.
             </li>
             <li>
-              Utilizar software de creación de prototipos (mockups, wireframes).
+              Crear material estático como es la fotografía, afiches,
+              infografías, poster, P&P, mallas publicitarias, entre otros.
             </li>
-            <li>Programar en HTML, CSS, javascript.</li>
-            <li>Trabajar con metodologías de administración de proyectos.</li>
           </ul>
         </section>
         <hr />
         <!--Plan de estudio-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="plan_estudio">Plan de estudio</h3>
-          <p>El programa está conformado por los siguientes módulos:</p>
           <ul class="plan__lista">
-            <li>Producción de componentes multimedia.</li>
-            <li>Diseño de interfaces web.</li>
-            <li>Codificación de páginas web.</li>
-            <li>Diseño de algoritmos.</li>
-            <li>Programación web en el entorno cliente.</li>
-            <li>Uso de sistemas de gestión de contenidos.</li>
-            <li>Publicación de páginas web.</li>
-            <li>Planificación de proyectos web.</li>
-            <li>Desarrollo de proyectos web en el entorno.</li>
+            <li>Diseño gráfico elemental.</li>
+            <li>Edición básica de imágenes digitales y video.</li>
+            <li>
+              Conceptualización de la estrategia visual para plataformas
+              digitales.
+            </li>
+            <li>
+              Desarrollo de estrategias de comunicación y mercadotecnia para
+              contenidos visuales
+            </li>
+            <li>
+              Administración de las estrategias de mercadeo para redes sociales
+            </li>
           </ul>
         </section>
         <hr />
@@ -236,13 +251,11 @@
         <section class="main__sec">
           <h3 class="main__sec-title" id="perfil_salida">Perfil de salida</h3>
           <p class="perfil__descripcion">
-            La persona egresada puede crear componentes multimedia, diseñar
-            interfaces web y plantear algoritmos en pseudocódigo, diagramas y
-            código. Además, tiene la capacidad de programar en HTML, CSS y
-            JavaScript, utilizar sistemas de gestión de contenidos, publicar
-            páginas web y planificar proyectos web, abarcando así diversas
-            habilidades clave para el desarrollo y gestión de proyectos en el
-            entorno digital.
+            El egresado tendrá la capacidad de generar y administrar contenido
+            publicitario, poseer conocimientos básicos de fotografía o video, y
+            contar con un sólido conocimiento teórico sobre marketing,
+            publicidad, diseño y arte. Además, será competente para gestionar su
+            propio emprendimiento
           </p>
         </section>
         <hr />
@@ -250,19 +263,22 @@
         <section class="main__sec">
           <h3 class="main__sec-title" id="mercado_laboral">Mercado laboral</h3>
           <ul class="mercado__lista">
+            <li>Agencias publicitarias</li>
+            <li>Imprentas</li>
             <li>
-              Empresas privadas o instituciones públicas que cuenten con un área
-              de desarrollo Web.
+              Personas emprendedoras que requieran colaboración para impulsar su
+              negocio
             </li>
           </ul>
         </section>
       </div>
     </main>
 
+    <!--Footer-->
     <footer class="footer">
       <div class="footer-container">
         <img
-          src="/Imagenes/Horizontal_blanco_21.png"
+          src="../../Imagenes/Horizontal_blanco_21.png"
           class="footer__logo"
           alt="INA logo horizontal blanco"
         />

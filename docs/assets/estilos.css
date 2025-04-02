@@ -1,30 +1,11 @@
-article {
-  --img-scale: 1.001;
-  --title-color: black;
-  --link-icon-translate: -20px;
-  --link-icon-opacity: 0;
-  position: relative;
-  border-radius: 16px;
-  box-shadow: none;
-  background: #fff;
-  transform-origin: center;
-  transition: all 0.4s ease-in-out;
-  overflow: hidden;
-  padding: 25px; /*para que no quede pegado al borde*/
-}
+/* ========== Estilos generales ========== */
 
-/*tipo de fuente para los titulo y subtitulo*/
+/*Tipo de fuente para los titulo y subtitulo*/
 h1,
 h2,
 h3 {
   font-family: 'Manjari', sans-serif;
 }
-
-/* Fuente para el resto del contenido AVENIR NEXT 
-body, p, ul, li, a {
-   font-family; 
-}
- */
 
 html {
   height: 100%;
@@ -109,7 +90,6 @@ hr {
 
 .sub-nav__itm:hover {
   border-radius: 10px;
-  text-decoration: underline solid white;
   box-shadow: 0 1px 1px rgb(174, 172, 172);
 }
 
@@ -223,6 +203,21 @@ hr {
   text-decoration: underline;
 }
 /* Estilos de artículos */
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  padding: 25px; /*para que no quede pegado al borde*/
+}
+
 .articles {
   margin: 3rem;
   display: grid;

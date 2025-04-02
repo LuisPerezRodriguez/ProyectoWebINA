@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-    name="author"
-    content="Jesus Moscoso Chavarría, Luis Pérez Rodríguez"
-  />
-    <link rel="stylesheet" href="/assets/estilos.css" />
-    <script src="/assets/script.js" defer></script>
+    <link rel="stylesheet" href="../../assets/estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="../../assets/script.js" defer></script>
     <title>Proyecto de vida</title>
   </head>
   <body>
@@ -19,37 +19,37 @@
           <a
             href="https://www.ina.ac.cr/SitePages/Inicio.aspx"
             class="main-nav__inicio-itm"
-            ><img src="/SVGs/home-logo.svg" alt="Ir a la página de inicio"
+            ><img src="../../SVGs/home-logo.svg" alt="Home logo"
           /></a>
         </div>
         <div class="main-nav__sociales">
           <a
             href="https://www.facebook.com/institutonacionaldeaprendizaje"
             class="main-nav__sociales-itm main-nav__sociales-itm--fb"
-            ><img src="/SVGs/facebook-logo.svg" alt="Facebook logo"
+            ><img src="../../SVGs/facebook-logo.svg" alt="Facebook logo"
           /></a>
           <a
-            href="https://www.youtube.com/watch?v=XcSVQWRpaZc"
+            href="https://www.youtube.com/user/inatvonline"
             class="main-nav__sociales-itm main-nav__sociales-itm--yt"
             ><img src="/SVGs/youtube-logo.svg" alt="Youtube logo"
           /></a>
           <a href="https://x.com/inadecostarica" class="main-nav__sociales-itm"
-            ><img src="/SVGs/twitter-logo.svg" alt="Twitter logo"
+            ><img src="../../SVGs/twitter-logo.svg" alt="Twitter logo"
           /></a>
         </div>
       </nav>
       <!--fin redes sociales-->
 
       <nav class="sub-nav">
-        <a href="/index.html" class="sub-nav__a"
+        <a href="../../../index.html" class="sub-nav__a"
           ><img
-            src="/Imagenes/Horizontal_blanco_21.png"
+            src="../../Imagenes/Horizontal_blanco_21.png"
             alt="INA logo horizontal blanco"
             class="sub-nav__a-logo"
         /></a>
 
         <button class="sub-nav__btn" id="sub-nav__toggle-btn">
-          <img src="/SVGs/bars.svg" alt="Abrir menú de navegación" class="sub-nav__btn-img" />
+          <img src="../../SVGs/bars.svg" alt="Barras" class="sub-nav__btn-img" />
         </button>
 
         <!--escritorio-->
@@ -106,72 +106,49 @@
     </header>
 
     <main class="main">
+      <figure class="bg-container">
+        <img
+          src="../../Imagenes/bg-Mecanica-Vehiculos.jpg"
+          alt="Imagen de fondo con herramientas que representa la mecánica de vehículos"
+        />
+      </figure>
       <!--Area a la que pertenece-->
-      <h1 class="main__title">Turismo</h1>
+      <h1 class="main__title">
+        <i class="material-icons">build</i> Mecánica de vehículos
+      </h1>
+
       <div class="main-container">
         <!--Nombre del curso-->
-        <h2 class="sub-titulo">Técnico en Guía de Turistas Local</h2>
-        <!--Descripcion-->
+        <h2 class="sub-titulo">
+          Técnico 2 Reparación de los Sistemas de Motocicletas y Cuadraciclos
+        </h2>
 
+        <!--Descripcion-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="descripcion">
             Descripción del programa
           </h3>
           <p>
-            El guía de turismo general es quien presta servicios de orientación,
-            información y asistencia al turista, en materia del patrimonio
-            nacional y turístico, y cualquier otro aspecto requerido para
-            realizar sus actividades a nivel nacional.
+            Es un programa de formación en cual se enseña a las personas
+            estudiantes las principales técnicas de reparación de todos los
+            sistemas del vehículo liviano, incluyendo sistemas mecánicos,
+            eléctricos y electrónicos incluyendo los sistemas de vehículos
+            híbridos y eléctricos.
           </p>
         </section>
-        <hr />
+
         <!-- Requisitos de ingreso -->
         <section class="main__sec">
           <h3 class="main__sec-title" id="requisitos">Requisitos de Ingreso</h3>
           <ul>
-            <li><strong>Edad:</strong> Mayor de 18 años.</li>
+            <li><strong>Edad:</strong> Mayor de 17 años.</li>
             <li>
               <strong>Nivel académico:</strong> Certificado de sexto grado.
             </li>
             <li><strong>Proceso de admisión:</strong> (X) Sí ( ) No</li>
-            <li>
-              <strong>Requisitos Adicionales:</strong>
-              <ul>
-                <li>Dictamen médico vigente.</li>
-                <li>
-                  Disponibilidad de tiempo para ejecución de giras didácticas.
-                </li>
-                <li>
-                  Utilizar uniforme definido por Núcleo Turismo para las giras
-                  didácticas.
-                </li>
-                <li>
-                  Ropa adecuada para actividades de aventura o deportiva casual
-                  (pantalón cargo, camisa de secado rápido, pantalón de
-                  mezclilla).
-                </li>
-                <li>
-                  Calzado apropiado (botas de montaña, botas de hule, calzado
-                  deportivo).
-                </li>
-                <li>
-                  Mantener una higiene y presentación personal adecuada para
-                  actividades al aire libre.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Requisitos de graduación:</strong>
-              <ul>
-                <li>
-                  Certificado de programa de Inglés Básico y el curso de
-                  Servicio de Hospitalidad.
-                </li>
-              </ul>
-            </li>
           </ul>
         </section>
-        <hr />
+
         <!--habilidades-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="habilidades">
@@ -183,126 +160,130 @@
             <h3 class="habilidad__titulo">Habilidades físicas</h3>
             <ul class="habilidad__lista">
               <li>
-                Motora gruesa (caminatas de variada duración y grados de
-                dificultad, que requieren buena condición física y equilibrio,
-                con músculos y huesos sanos, para afrontar posibles jornadas
-                extensas de trabajo en campo y donde se presentan condiciones
-                variables de clima y tiempo. También hay exigencia física y
-                coordinación cuando se deba operar y mover equipo especializado,
-                traslados de muchas horas en medios de transporte).
+                Motora Fina: Precisión en las manos para manipular piezas
+                pequeñas.
               </li>
               <li>
-                Motora fina (uso adecuado de manos, dedos, lengua y cara para
-                girar instrucciones en el campo que alerten sobre el desempeño
-                en los recorridos. También se requiere para dibujar y colorear
-                especies de interés turístico, además de escribir a mano
-                reportes, cambios de itinerarios, instrucciones a clientes,
-                proveedores y colaboradores).
+                Motora gruesa: Facilidad motriz para para levantar ciertos
+                pesos.
               </li>
             </ul>
-            <hr />
+
             <!--Habilidades Cognitivas-->
             <h3 class="habilidad__titulo">Habilidades Cognitivas</h3>
             <ul class="habilidad__lista">
               <li>
-                Atención, concentración, observación, comprensión espacial,
-                memoria, percepción, lenguaje, orientación, razonamiento, lógica
-                matemática, resolución de problemas.
+                Que la persona participante tenga la capacidad de prestar
+                atención por tiempos determinados.
+              </li>
+              <li>
+                Que tenga la capacidad de entender y comprender una lectura.
               </li>
             </ul>
-            <hr />
+
             <!--Habilidades sensoriales-->
             <h3 class="habilidad__titulo">Habilidades sensoriales</h3>
             <ul class="habilidad__lista">
-              <li>Visual, táctil, auditivas, olfativas, gusto.</li>
               <li>
-                Coordinación corporal, espacial y vestibular, propioceptivo.
+                La persona debe tener los sentidos bien desarrollados, así como
+                una buena coordinación de los movimientos y la fuerza necesaria
+                para realizar sus actividades de manera eficiente y precisa.
               </li>
             </ul>
-            <hr />
+
             <!--Otras habilidades-->
             <h3 class="habilidad__titulo">Otras habilidades necesarias</h3>
             <ul class="habilidad__lista">
-              <li>Capacidad de trabajo en equipo</li>
-              <li>Sensibilidad social.</li>
-              <li>Lógica matemática básica.</li>
-              <li>Capacidad de seguir órdenes.</li>
-              <li>Proactivos.</li>
+              <li>
+                Que la persona sea lo más sincera y honesta con los demás y
+                consigo misma.
+              </li>
             </ul>
           </div>
         </section>
-        <hr />
+
         <!--Tareas tipicas que se realizan-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="tareas_tipicas">
             Tareas típicas que se realizan en el programa
           </h3>
           <ul class="tareas__lista">
+            <li>Circuitos eléctricos.</li>
             <li>
-              Identificar elementos del patrimonio turístico, clasificar el
-              turismo y comprender terminología clave.
+              Manipulación de equipos filosos (brocas, centro puntos y otros).
             </li>
+            <li>Desarme y arme de transmisiones mecánicas.</li>
+            <li>Reparación de llantas y enrayado de aros.</li>
             <li>
-              Analizar la importancia del guiado profesional con principios
-              éticos y morales.
-            </li>
-            <li>
-              Explicar el origen geológico de Costa Rica y aplicar fundamentos
-              de geografía turística durante recorridos.
-            </li>
-            <li>
-              Relacionar historia natural y teoría de la evolución con el guiado
-              de turistas, destacando ecosistemas y recursos naturales.
-            </li>
-            <li>
-              Aplicar técnicas de guiado durante recorridos turísticos, conforme
-              a la planificación y normativa vigente, utilizando equipo y
-              herramientas tecnológicas.
+              Análisis del sistema eléctrico y encendido de la motocicleta
             </li>
           </ul>
         </section>
-        <hr />
+
         <!--Plan de estudio-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="plan_estudio">Plan de estudio</h3>
           <ul class="plan__lista">
-            <li>Generalidades del turismo.</li>
-            <li>Ética aplicada a la actividad turística.</li>
-            <li>Manejo y conducción de turistas.</li>
-            <li>Historia natural local para el guiado de turistas.</li>
-            <li>Geografía turística para el guiado local.</li>
-            <li>Práctica didáctica supervisada de guía local.</li>
+            <li>Fundamentos de banco básico para motocicleta y cuadraciclo.</li>
+            <li>Mantenimiento de motocicleta y cuadraciclo.</li>
+            <li>
+              Mediciones eléctricas y electrónicas de motocicleta y cuadraciclo.
+            </li>
+            <li>
+              Reparación de chasis, suspensión y dirección de motocicleta y
+              cuadraciclo.
+            </li>
+            <li>
+              Reparación del sistema de frenos de motocicleta y cuadraciclo.
+            </li>
+            <li>
+              Reparación del sistema de transmisión de motocicleta y
+              cuadraciclo.
+            </li>
+            <li>
+              Reparación del sistema eléctrico de la motocicleta y el
+              cuadraciclo.
+            </li>
+            <li>
+              Encendido y alimentación del motor de la motocicleta y el
+              cuadraciclo.
+            </li>
+            <li>
+              Reparación del tren motriz de la motocicleta y el cuadraciclo
+              eléctricos.
+            </li>
+            <li>
+              Práctica en la empresa: reparación de los sistemas de las
+              motocicletas y cuadraciclos.
+            </li>
+            <li>Reparación de llantas de motocicleta y cuadraciclo.</li>
           </ul>
         </section>
-        <hr />
+
         <!--Perfil de salida-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="perfil_salida">Perfil de salida</h3>
           <p class="perfil__descripcion">
-            El egresado será capaz de interpretar el patrimonio turístico en el
-            territorio nacional, según el recorrido planificado y los
-            requerimientos del cliente. Aplicará técnicas de guiado durante los
-            recorridos turísticos, conforme a la planificación, la normativa
-            nacional vigente y las políticas de la organización. Además, podrá
-            interpretar tanto el patrimonio turístico natural como el cultural
-            presente en el territorio nacional, según el recorrido planificado y
-            los requerimientos del cliente. También comprenderá y comunicará
-            ideas a nivel básico en un segundo idioma (inglés)
+            El egresado será capaz de reparar, mantener y diagnosticar problemas
+            en motocicletas y cuadraciclos. Dominará los sistemas mecánicos de
+            motores de dos y cuatro tiempos, cajas de cambios, embragues,
+            frenos, suspensiones y direcciones. También comprenderá sistemas
+            eléctricos y electrónicos, incluyendo baterías, encendido y unidades
+            de control electrónico (ECU). Tendrá habilidad en el uso de
+            herramientas de diagnóstico manuales y electrónicas, realizar
+            mantenimiento preventivo y correctivo, y desarmar y ensamblar
+            componentes. Finalmente, será competente en el uso de herramientas
+            específicas como dinamómetros y equipos de alineación de dirección
           </p>
         </section>
-        <hr /> 
+
         <!--Mercado laboral-->
         <section class="main__sec">
           <h3 class="main__sec-title" id="mercado_laboral">Mercado laboral</h3>
           <ul class="mercado__lista">
-            <li>
-              Empresas que ofrecen servicios turísticos (tours de aventura,
-              naturaleza, observación de aves y mamíferos marinos, cultura,
-              gastronomía, museos), agencias de viajes, empresas de mercadeo
-              turístico, Cámaras de turismo, Municipalidades, hoteles, centros
-              turísticos, parques temáticos, sitios históricos, ONG´s, entre
-              otras
-            </li>
+            <li>Talleres autorizados</li>
+            <li>Colegios Vocacionales</li>
+            <li>Talleres Agencias Concesionarias de Vehículos</li>
           </ul>
         </section>
       </div>
@@ -311,7 +292,7 @@
     <footer class="footer">
       <div class="footer-container">
         <img
-          src="/Imagenes/Horizontal_blanco_21.png"
+          src="../../Imagenes/Horizontal_blanco_21.png"
           class="footer__logo"
           alt="INA logo horizontal blanco"
         />
@@ -340,7 +321,7 @@
           <h3>Síguenos</h3>
           <ul>
             <li>
-              <img src="/SVGs/facebook-logo.svg" alt="Facebook logo" />
+              <img src="../../SVGs/facebook-logo.svg" alt="Facebook logo" />
               <a
                 href="https://www.facebook.com/institutonacionaldeaprendizaje"
                 target="_blank"
@@ -349,11 +330,11 @@
               </a>
             </li>
             <li>
-              <img src="/SVGs/twitter-logo.svg" alt="Twitter logo" />
+              <img src="../../SVGs/twitter-logo.svg" alt="Twitter logo" />
               <a href="https://x.com/inadecostarica" target="_blank">Twitter</a>
             </li>
             <li>
-              <img src="/SVGs/youtube-logo.svg" alt="YouTube logo" />
+              <img src="../../SVGs/youtube-logo.svg" alt="YouTube logo" />
               <a href="https://www.youtube.com/user/inatvonline" target="_blank"
                 >YouTube</a
               >
